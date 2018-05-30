@@ -1,0 +1,1677 @@
+focus_tree = {
+id = 'BRR'
+country = {
+factor=0
+modifier = {
+add = 20
+tag = BRR
+}
+}
+default = no
+
+	focus = {
+		id = beginning
+		icon = GFX_goal_NCR_Rationing
+		cost = 1
+		x = 10
+		y = 0
+
+		prerequisite = {
+		}
+		completion_reward = {
+		country_event = brr_events.5
+		}
+
+	}
+	
+	focus = {
+		id = infight
+		icon = GFX_goal_NCR_Pokersiege
+		cost = 1
+		x = 10
+		y = 1
+
+		prerequisite = {
+		focus = beginning
+		}
+		completion_reward = {
+		country_event = brr_events.6
+		}
+
+	}
+
+	focus = {
+		id = union
+		icon = GFX_goal_NCR_Baronofbarons
+		cost = 1
+		x = 10
+		y = 2
+
+		prerequisite = {
+		focus = infight
+		}
+		completion_reward = {
+		country_event = brr_events.4
+		}
+
+	}
+	
+	focus = {
+		id = republican_military
+		icon = GFX_goal_NCR_Baron
+		cost = 8.60
+		x = 2
+		y = 3
+
+		prerequisite = {
+		focus = union
+		}
+		completion_reward = {
+			add_ideas = bigjim
+		}
+	}
+	
+	focus = {
+		id = magnums_ideas
+		icon = GFX_goal_NCR_Industrialcomplex
+		cost = 8.60
+		x = 2
+		y = 4
+
+		prerequisite = {
+		focus = republican_military
+		}
+		completion_reward = {
+			add_ideas = militindustrial
+		}
+
+	}
+
+	focus = {
+		id = magnums_standardization_act
+		icon = GFX_goal_NCR_Weapon_Standardization
+		cost = 8.60
+		x = 2
+		y = 5
+
+		prerequisite = {
+		focus = magnums_ideas
+		}
+		completion_reward = {
+			add_ideas = republic_standardization_production
+		}
+
+	}
+	
+	focus = {
+		id = magnums_mech_core
+		icon = GFX_goal_NCR_Mechanized_Core
+		cost = 8.60
+		x = 2
+		y = 6
+
+		prerequisite = {
+		focus = magnums_standardization_act
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = { type = truck_equipment_1 amount = 20 producer = BRR }
+			
+			add_ideas = mechcore
+		}
+
+	}
+	
+	focus = {
+		id = magnums_shock_companies
+		icon = GFX_goal_NCR_Shock_Companies
+		cost = 8.60
+		x = 2
+		y = 7
+
+		prerequisite = {
+		focus = magnums_mech_core
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = { type = apc_equipment_1 amount = 20 producer = NCR }
+			
+			add_ideas = shockcomp
+		}
+
+	}
+	
+	focus = {
+		id = polatlis_idea
+		icon = GFX_goal_generic_airbases_focus
+		cost = 8.60
+		x = 4
+		y = 4
+
+		prerequisite = {
+		focus = republican_military
+		}
+		completion_reward = {
+			135 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	
+	focus = {
+		id = polatlis_airborne_act
+		icon = GFX_goal_generic_air_doctrines_focus
+		cost = 8.60
+		x = 4
+		y = 5
+
+		prerequisite = {
+		focus = polatlis_idea
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_equipment	
+			}
+		}
+
+	}
+
+	focus = {
+		id = polatlis_cas_plan
+		icon = GFX_goal_generic_air_bomber
+		cost = 8.60
+		x = 4
+		y = 6
+
+		prerequisite = {
+		focus = polatlis_airborne_act
+		}
+		completion_reward = {
+		add_ideas = flyingbarons
+		}
+	}
+	
+	focus = {
+		id = polatlis_superior_plan
+		icon = GFX_goal_generic_CAS
+		cost = 8.60
+		x = 4
+		y = 7
+
+		prerequisite = {
+		focus = polatlis_cas_plan
+		}
+		completion_reward = {
+			add_ideas = baronsaviation
+		}
+
+	}
+	
+	focus = {
+		id = jims_army
+		icon = GFX_goal_NCR_Infantry_Drills
+		cost = 8.60
+		x = 0
+		y = 4
+
+		prerequisite = {
+		focus = republican_military
+		}
+		completion_reward = {
+			add_ideas = jimdrills
+		}
+
+	}
+
+	focus = {
+		id = jims_march
+		icon = GFX_goal_NCR_Standards
+		cost = 8.60
+		x = 0
+		y = 5
+
+		prerequisite = {
+		focus = jims_army
+		}
+		completion_reward = {
+			add_ideas = ncrmarch
+		}
+
+	}
+	
+	focus = {
+		id = jims_draft
+		icon = GFX_goal_NCR_Oldworldmilitary
+		cost = 8.60
+		x = 0
+		y = 6
+
+		prerequisite = {
+		focus = jims_march
+		}
+		completion_reward = {
+			add_ideas = jimdraft
+		}
+
+	}
+	
+	focus = {
+		id = jims_concept
+		icon = GFX_goal_NCR_Buyout
+		cost = 8.60
+		x = 0
+		y = 7
+
+		prerequisite = {
+		focus = jims_draft
+		}
+		completion_reward = {
+			army_experience = 50
+		}
+
+	}
+
+	focus = {
+		id = people_tradition
+		icon = GFX_goal_support_democracy
+		cost = 8.60
+		x = 8
+		y = 3
+
+		prerequisite = {
+		focus = union
+		}
+		completion_reward = {
+				add_popularity = {
+				ideology = people
+				popularity = 0.10
+				}	
+			}
+	}
+	
+	focus = {
+		id = State_library
+		icon = GFX_goal_NCR_The_Capital_Fund
+		cost = 8.60
+		x = 7
+		y = 5
+
+		mutually_exclusive = {
+		focus = State_capitol
+		}
+		prerequisite = {
+		focus = Scav_sac_city1
+		}
+		completion_reward = {
+					135 = {
+					limit = {
+					free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+					}
+					OR = {
+					is_in_home_area = yes
+					NOT = {
+					owner = {
+					any_owned_state = {
+					free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+					}
+					is_in_home_area = yes
+					}
+					}
+					}
+					}
+					}
+					add_extra_state_shared_building_slots = 5
+					}
+					add_manpower= -1000 
+		}
+	}
+	
+	focus = {
+		id = Scav_sac_city1
+		icon = GFX_goal_generic_building_focus
+		cost = 8.60
+		x = 8
+		y = 4
+
+		prerequisite = {
+		focus = people_tradition
+		}
+		completion_reward = {
+			add_popularity = {
+			ideology = people
+			popularity = 0.10
+			}	
+			add_Manpower = -1000
+			country_event = brr_events.9
+			}
+	}
+	
+	focus = {
+		id = Sleep_train_arena
+		icon = GFX_goal_generic_production2
+		cost = 8.60
+		x = 8
+		y = 6
+
+		prerequisite = {
+		focus = State_capitol
+		focus = State_library
+		}
+		completion_reward = {
+			add_stability = 0.05
+			}
+	}
+	
+	focus = {
+		id = library_excavation
+		icon = GFX_goal_generic_building_focus
+		cost = 8.60
+		x = 6
+		y = 6
+
+		prerequisite = {
+		focus = State_library
+		}
+		completion_reward = {
+		add_ideas = library_excavated
+		add_manpower= -1000 
+			}
+	}
+	
+	focus = {
+		id = Capitol_excavation
+		icon = GFX_goal_generic_building_focus
+		cost = 8.60
+		x = 10
+		y = 6
+
+		prerequisite = {
+		focus = State_capitol
+		}
+		completion_reward = {
+			add_ideas = capitol_excavated
+			add_manpower= -1000 
+		}
+	}
+	
+	focus = {
+		id = State_capitol
+		icon = GFX_goal_NCR_The_Capital_Fund
+		cost = 8.60
+		x = 9
+		y = 5
+		
+		mutually_exclusive = {
+			focus = State_library
+		}
+
+		prerequisite = {
+		focus = Scav_sac_city1
+		}
+		completion_reward = {
+
+					135 = {
+					limit = {
+					free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+					}
+					OR = {
+					is_in_home_area = yes
+					NOT = {
+					owner = {
+					any_owned_state = {
+					free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+					}
+					is_in_home_area = yes
+					}
+					}
+					}
+					}
+					}
+					add_extra_state_shared_building_slots = 5
+					}
+					add_manpower= -1000 
+		}
+	}
+	
+	focus = {
+		id = reviving_sports_league
+		icon = GFX_goal_NCR_The_League
+		cost = 8.60
+		x = 8
+		y = 7
+
+		prerequisite = {
+		focus = Sleep_train_arena
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			add_stability = 0.05
+			}
+	}
+	
+	focus = {
+		id =  Capitol_rebuild
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 8.60
+		x = 10
+		y = 7
+
+		prerequisite = {
+		focus = Capitol_excavation
+		}
+		completion_reward = {
+		add_ideas = capitol_rebuild
+		add_manpower= -1000 
+		}
+	}
+	
+	focus = {
+		id = library_rebuild
+		icon = GFX_focus_research 
+		cost = 8.60
+		x = 6
+		y = 7
+
+		prerequisite = {
+		focus = library_excavation
+		}
+		completion_reward = {
+		add_manpower= -1000 
+		add_research_slot = 1
+			}
+	}
+	
+	focus = {
+		id = league_radio
+		icon = GFX_goal_generic_communcation_focus
+		cost = 8.60
+		x = 6
+		y = 8
+
+		prerequisite = {
+		focus = reviving_sports_league
+		}
+		completion_reward = {
+		add_stability = 0.05	
+		}
+	}
+	
+		focus = {
+		id = first_season
+		icon = GFX_goal_NCR_Season_One
+		cost = 8.60
+		x = 10
+		y = 8
+
+		prerequisite = {
+		focus = reviving_sports_league
+		}
+		completion_reward = {
+		country_event = brr_events.10		
+		}
+	}
+	
+	focus = {
+		id = join_cali_league
+		icon = GFX_goal_NCR_The_California_League
+		cost = 8.60
+		x = 8
+		y = 8
+
+		prerequisite = {
+		focus = reviving_sports_league
+		}
+		completion_reward = {
+			GLO = {
+				country_event = brr_events.11
+					}
+		}
+	}
+	
+	focus = {
+		id = Diplomatics
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 31
+		y = 3
+
+		prerequisite = {
+		focus = union
+		}
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = Diplomatics_NCR
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 35
+		y = 4
+
+		mutually_exclusive = {
+			focus = Diplomatics_reno
+		}
+		prerequisite = {
+		focus = Diplomatics
+		}
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = ncr_agreements
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 35
+		y = 5
+
+		prerequisite = {
+		focus = Diplomatics_NCR
+		}
+		completion_reward = {
+			NCR = {
+			country_event = brr_events.16
+			}
+		}
+	}
+	focus = {
+		id = NCR_allies
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 35
+		y = 7
+
+		prerequisite = {
+		focus = NCR_guarantee
+		}
+		available = {
+			BRR = {
+			is_in_faction = yes
+			}
+		}
+		completion_reward = {
+			NCR = {
+			country_event = brr_events.17
+			}
+		}
+	}
+	
+	focus = {
+		id = NCR_guarantee
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 35
+		y = 6
+				
+		prerequisite = {
+		focus = ncr_agreements
+		}
+		completion_reward = {
+			NCR = {
+			country_event = brr_events.15
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = Diplomatics_reno
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 27
+		y = 4
+
+		mutually_exclusive = {
+			focus = Diplomatics_NCR
+		}
+		prerequisite = {
+		focus = Diplomatics
+		}
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = rivalry_redding
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 31
+		y = 5
+
+		prerequisite = {
+		focus = Diplomatics
+		}
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = gain_support_against
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 32
+		y = 6
+
+		mutually_exclusive = {
+			focus = gain_support
+		}
+		
+		prerequisite = {
+		focus = rivalry_redding
+		}
+		completion_reward = {
+		add_war_support = 0.05
+		}
+	}
+	
+	focus = {
+		id = prepare_invasion
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 32
+		y = 7
+
+		prerequisite = {
+		focus = gain_support_against
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = invasion_preparation
+				days = 180
+			}
+		}
+	}
+	
+	focus = {
+		id = ready_go
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 32
+		y = 8
+
+		prerequisite = {
+		focus = prepare_invasion
+		}
+		completion_reward = {
+		create_wargoal = { type = annex_everything target = RNG }
+		}
+	}
+	
+	focus = {
+		id = seek_truce
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 30
+		y = 7
+
+		prerequisite = {
+		focus = gain_support
+		}
+		completion_reward = {
+			RNG = {
+			country_event = brr_events.13
+			}
+		}
+	}
+	
+	focus = {
+		id = gain_support
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 30
+		y = 6
+
+		mutually_exclusive = {
+			focus = gain_support_against
+		}
+		
+		prerequisite = {
+		focus = rivalry_redding
+		}
+		completion_reward = {
+		add_war_support = -0.05
+		}
+	}
+	
+	focus = {
+		id = bury_hatchet
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 30
+		y = 8
+
+		prerequisite = {
+		focus = seek_truce
+		}
+		completion_reward = {
+			RNG = {
+			country_event = brr_events.12
+			}
+		}
+	}
+	
+	focus = {
+		id = Reno_agreements
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 27
+		y = 5
+
+		prerequisite = {
+		focus = Diplomatics_reno
+		}
+		completion_reward = {
+			NEW = {
+			country_event = brr_events.16
+			}
+		}
+	}
+	
+	focus = {
+		id = Reno_allies
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 27
+		y = 7
+
+		prerequisite = {
+		focus = reno_guarantee
+		}
+		available = {
+			BRR = {
+			is_in_faction = yes
+			}
+		}
+		completion_reward = {
+			NEW = {
+			country_event = brr_events.17
+			}
+		}
+	}
+	
+	focus = {
+		id = reno_guarantee
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 27
+		y = 6
+				
+		prerequisite = {
+		focus = Reno_agreements
+		}
+		completion_reward = {
+			NEW = {
+			country_event = brr_events.15
+			}
+		}
+	}
+	
+	focus = {
+		id = political_strife
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.60
+		x = 21
+		y = 3
+
+		prerequisite = {
+		focus = union
+		}
+		completion_reward = {
+		country_event = brr_events.7 
+		}
+
+	}
+	
+	focus = {
+		id = intellectual_1
+		icon = GFX_goal_NEW_the_old_world
+		cost = 8.60
+		x = 24
+		y = 4
+		mutually_exclusive = {
+			focus = ruler_1
+			focus = elites_1
+			focus = people_1
+		}
+
+		prerequisite = {
+		focus = political_strife
+		}
+		available = {
+		has_idea = gather_intellectuals
+		}
+		completion_reward = {
+				add_popularity = {
+				ideology = intellectuals
+				popularity = 0.25
+			}	
+			add_ideas = secret_societies
+		}
+
+	}
+	
+	focus = {
+		id = intellectual_2
+		icon = GFX_goal_generic_laser_muskets_focus
+		cost = 8.60
+		x = 24
+		y = 5
+
+		prerequisite = {
+		focus = intellectual_1
+		}
+		completion_reward = {
+			SHI = {
+			add_opinion_modifier = { target = BRR modifier = medium_increase }
+				}
+				
+			BRR = {
+			add_opinion_modifier = { target = SHI modifier = medium_increase }
+				}
+			
+			remove_state_core = 511
+			
+			add_popularity = {
+				ideology = intellectuals
+				popularity = 0.15
+			}
+			add_equipment_to_stockpile = { 
+				type = energy_equipment_1
+				amount = 2000
+				producer = SHI
+			}
+		}
+
+	}
+
+	
+	focus = {
+		id = intellectual_3
+		icon = GFX_goal_generic_data_focus
+		cost = 8.60
+		x = 24
+		y = 6
+
+		prerequisite = {
+		focus = intellectual_2
+		}
+		completion_reward = {
+				
+				add_popularity = {
+				ideology = intellectuals
+				popularity = 0.10
+				}
+		add_research_slot = 1
+		}
+
+	}
+	
+	focus = {
+		id = intellectual_4
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 8.60
+		x = 24
+		y = 7
+
+		prerequisite = {
+		focus = intellectual_3
+		}
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			remove_ideas = settlerbrahminbarons
+			SHI = {
+			country_event = brr_events.15
+			}
+			set_politics = {
+			ruling_party = intellectuals
+			elections_allowed = no
+			}
+			
+		}
+	}
+
+	focus = {
+		id = ruler_1
+		icon = GFX_goal_generic_food_focus
+		cost = 8.60
+		x = 22
+		y = 4
+
+		mutually_exclusive = {
+			focus = intellectual_1
+			focus = elites_1
+			focus = people_1
+		}
+		available = {
+		has_idea = continue_business_usual
+		}
+
+		prerequisite = {
+		focus = political_strife
+		}
+		completion_reward = {
+		add_ideas = secret_connections
+			add_popularity = {
+			ideology = Ruler
+			popularity = 0.10
+				}
+		}
+
+	}
+
+	focus = {
+		id = ruler_2
+		icon = GFX_goal_NCR_The_Boneyard
+		cost = 8.60
+		x = 22
+		y = 5
+
+		prerequisite = {
+		focus = ruler_1
+		}
+		completion_reward = {
+			HUB = {
+			add_opinion_modifier = { target = BRR modifier = medium_increase }
+				}
+			BRR = {
+			add_opinion_modifier = { target = HUB modifier = medium_increase }
+				}
+			
+			add_timed_idea = {
+				idea = secret_deal1
+				days = 180
+			}
+			
+			HUB = {
+			add_timed_idea = {
+				idea = secret_deal
+				days = 180
+				}
+			
+			add_popularity = {
+			ideology = Ruler
+			popularity = 0.10
+				}
+			}
+		}
+
+	}
+
+	focus = {
+		id = ruler_3
+		icon = GFX_focus_generic_little_entente
+		cost = 8.60
+		x = 22
+		y = 6
+
+		prerequisite = {
+		focus = ruler_2
+		}
+		completion_reward = {
+		add_ideas = rancheract
+		add_popularity = {
+			ideology = Ruler
+			popularity = 0.10
+			}
+		load_oob = BRR_merc
+		}
+	}
+	
+	focus = {
+		id = ruler_4
+		icon = GFX_focus_hun_elect_a_king
+		cost = 8.60
+		x = 22
+		y = 7
+
+		prerequisite = {
+		focus = ruler_3
+		}
+		completion_reward = {
+		country_event = brr_events.2		
+		}
+	
+	}
+	focus = {
+		id = people_1
+		icon = GFX_goal_generic_propaganda
+		cost = 8.60
+		x = 20
+		y = 4
+		
+		mutually_exclusive = {
+			focus = ruler_1
+			focus = elites_1
+			focus = intellectual_1
+		}
+
+		prerequisite = {
+		focus = political_strife
+		}
+		available = {
+		has_idea = enacting_recruiting_campaign
+		}
+		completion_reward = {
+				add_ideas = draftstandards
+				add_ideas = military_propaganda
+				add_popularity = {
+				ideology = people
+				popularity = 0.20
+			}	
+		}
+
+	}
+
+	focus = {
+		id = people_2
+		icon = GFX_goal_NCR_Brahminbill
+		cost = 8.60
+		x = 20
+		y = 5
+
+		prerequisite = {
+		focus = people_1
+		}
+		completion_reward = {
+				add_popularity = {
+				ideology = people
+				popularity = 0.20
+			}	
+		add_ideas = brahmin_bill
+		swap_ideas = {
+				add_idea = military_propaganda2
+				remove_idea = military_propaganda
+			}
+		}
+
+	}
+
+	focus = {
+		id = people_3
+		icon = GFX_goal_NCR_Milcenters
+		cost = 8.60
+		x = 20
+		y = 6
+
+		prerequisite = {
+		focus = people_2
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = people
+				popularity = 0.10
+			}	
+		
+			135 = {
+				add_building_construction = {
+					type = bunker
+					province = 2432 
+					level = 3
+					instant_build = yes
+				}
+			}
+			135 = {
+				add_building_construction = {
+					type = bunker 
+					province = 4869 
+					level = 3
+					instant_build = yes
+				}
+			}
+			135 = {
+				add_building_construction = {
+					type = bunker
+					province = 2431
+					level = 3
+					instant_build = yes
+				}
+			}
+			135 = {
+				add_building_construction = {
+					type = bunker
+					province = 2430
+					level = 3
+					instant_build = yes
+				}
+			}
+			135 = {
+				add_building_construction = {
+					type = bunker
+					province = 4868
+					level = 3
+					instant_build = yes
+				}
+			}
+			135 = {
+				add_building_construction = {
+					type = bunker
+					province = 4867
+					level = 3
+					instant_build = yes
+				}
+			}
+			135 = {
+				add_building_construction = {
+					type = bunker
+					province = 2429	
+					level = 3
+					instant_build = yes
+				}
+			}			
+			605 = {
+				add_building_construction = {
+					type = bunker
+					province = 2019
+					level = 3
+					instant_build = yes
+				}
+			}
+			529 = {
+				add_building_construction = {
+					type = bunker
+					province = 4737
+					level = 3
+					instant_build = yes
+				}
+			}
+		swap_ideas = {
+				add_idea = military_propaganda3
+				remove_idea = military_propaganda2
+			}
+		}
+
+	}
+	
+	focus = {
+		id = people_4
+		icon = GFX_goal_NCR_Council_Hill
+		cost = 8.60
+		x = 20
+		y = 7
+
+		prerequisite = {
+		focus = people_3
+		}
+		completion_reward = {
+		country_event = brr_events.3
+		}
+
+	}
+	
+	focus = {
+		id = elites_1
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 8.60
+		x = 18
+		y = 4
+		
+		mutually_exclusive = {
+			focus = ruler_1
+			focus = intellectual_1
+			focus = people_1
+		}
+
+		prerequisite = {
+		focus = political_strife
+		}
+		available = {
+		has_idea = Writing_constitution
+		}
+		completion_reward = {
+		add_ideas = constitution
+		}
+
+	}
+	
+	focus = {
+		id = elites_2
+		icon = GFX_focus_rom_parties_end
+		cost = 8.60
+		x = 18
+		y = 5
+
+		prerequisite = {
+		focus = elites_1
+		}
+		completion_reward = {
+		add_stability = 0.15
+		}
+
+	}
+	
+	focus = {
+		id = elites_3
+		icon = GFX_goal_generic_political_pressure
+		cost = 8.60
+		x = 18
+		y = 6
+
+		prerequisite = {
+		focus = elites_2
+		}
+		completion_reward = {
+		add_ideas = extended_contracts
+		}
+
+	}
+	
+	focus = {
+		id = elites_4
+		icon = GFX_goal_NCR_Ranger_Core
+		cost = 8.60
+		x = 18
+		y = 7
+
+		prerequisite = {
+		focus = elites_3
+		}
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			GLO = {
+			country_event = brr_events.8
+			}
+		}
+	}	
+	
+	focus = {
+		id = Baron
+		icon = GFX_goal_tripartite_pact
+		cost = 8.60
+		x = 14
+		y = 3
+
+		prerequisite = {
+		focus = union
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = ncrbarons
+				days = 180
+			}
+		}
+
+	}
+	focus = {
+		id = sac_1
+		icon = GFX_goal_generic_cities_focus
+		cost = 8.60
+		x = 12
+		y = 4
+
+		prerequisite = {
+			focus = Baron
+		}
+		available = {
+			controls_state = 135
+		}
+		completion_reward = {
+			135 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = sac_2
+		icon = GFX_goal_generic_army_motorized
+		cost = 8.60
+		x = 12
+		y = 5
+
+		prerequisite = {
+			focus = sac_1
+		}
+		available = {
+			controls_state = 135
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.5
+				uses = 1
+				category = vehicle_tech
+			}
+		}
+
+	}
+	focus = {
+		id = sac_4
+		icon = GFX_goal_generic_walls_focus
+		cost = 8.60
+		x = 12
+		y = 7
+
+		prerequisite = {
+			focus = sac_3
+		}
+		available = {
+		}
+		completion_reward = {
+		543 = {
+			add_building_construction = {
+					type = Bunker
+					level = 2
+					province = 1115
+					instant_build = yes
+				}
+			}
+		543 = {
+			add_building_construction = {
+					type = Bunker
+					level = 2
+					province = 4872
+					instant_build = yes
+				}
+			}
+		421 = {
+			add_building_construction = {
+					type = Bunker
+					level = 2
+					province = 2267
+					instant_build = yes
+				}
+			}
+		421 = {
+			add_building_construction = {
+					type = Bunker
+					level = 2
+					province = 4874
+					instant_build = yes
+				}
+			}
+		421 = {
+			add_building_construction = {
+					type = Bunker
+					level = 2
+					province = 4877
+					instant_build = yes
+				}
+			}
+		421 = {
+			add_building_construction = {
+					type = Bunker
+					level = 2
+					province = 4875
+					instant_build = yes
+				}
+			}
+		168 = {
+			add_building_construction = {
+					type = Bunker
+					level = 2
+					province = 4804
+					instant_build = yes
+				}
+			}
+		168 = {
+			add_building_construction = {
+					type = Bunker
+					level = 2
+					province = 1631
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = sac_3
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 8.60
+		x = 12
+		y = 6
+
+		prerequisite = {
+			focus = sac_2
+		}
+		available = {
+			controls_state = 135
+		}
+		completion_reward = {
+		country_event = { id = nf_ncr.17 }
+		}
+	}
+	focus = {
+		id = stockton_1
+		icon = GFX_goal_generic_cities_focus
+		cost = 8.60
+		x = 14
+		y = 4
+
+		prerequisite = {
+			focus = Baron
+		}
+		available = {
+			controls_state = 190
+		}
+		completion_reward = {
+			190 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex 
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = stockton_2
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 8.60
+		x = 14
+		y = 5
+
+		prerequisite = {
+			focus = stockton_1
+		}
+		available = {
+			controls_state = 190
+		}
+		completion_reward = {
+		add_ideas = crimson_caravan
+		}
+	}
+	focus = {
+		id = stockton_3
+		icon = GFX_goal_generic_military_sphere
+		cost = 8.60
+		x = 14
+		y = 6
+		
+		prerequisite = {
+			focus = stockton_2
+		}
+		available = {
+			controls_state = 190
+		}
+		completion_reward = {
+			country_event = brr_events.1
+		}
+	}
+	focus = {
+		id = stockton_4
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 8.60
+		x = 14
+		y = 7
+
+		prerequisite = {
+		focus = stockton_3
+		}
+		available = {
+			controls_state = 135
+			controls_state = 60
+			controls_state = 190
+		}
+		completion_reward = {
+		135 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		60 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		190 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = visalia_1
+		icon = GFX_goal_generic_cities_focus
+		cost = 8.60
+		x = 16
+		y = 4
+
+		prerequisite = {
+			focus = Baron
+		}
+		available = {
+			controls_state = 529
+		}
+		completion_reward = {
+			529 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = visalia_2
+		icon = GFX_goal_generic_military_industry_focus
+		cost = 8.60
+		x = 16
+		y = 5
+
+		prerequisite = {
+			focus = visalia_1
+		}
+		available = {
+			controls_state = 529
+		}
+		completion_reward = {
+			529 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+				}
+			}
+		}
+	}
+	focus = {
+		id = visalia_3
+		icon = GFX_goal_generic_large_scale_normal_industry_focus
+		cost = 8.60
+		x = 16
+		y = 6
+
+		prerequisite = {
+			focus = visalia_2
+		}
+		available = {
+			controls_state = 529
+		}
+		completion_reward = {
+			add_ideas = renovation_vis_corps
+		}
+	}
+	focus = {
+		id = visalia_4
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 8.60
+		x = 16
+		y = 7
+
+		prerequisite = {
+			focus = visalia_3
+		}
+		available = {
+			controls_state = 605
+			controls_state = 603
+			controls_state = 529
+		}
+		completion_reward = {
+		605 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		603 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		529 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+}

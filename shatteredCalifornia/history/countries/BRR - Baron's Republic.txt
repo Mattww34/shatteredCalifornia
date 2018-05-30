@@ -1,0 +1,106 @@
+﻿capital = 135
+oob = "BRR_2265"
+
+set_technology = {
+    standard_weaponry_tech = 1
+	blunt_weaponry = 1
+	support_weaponry = 1
+	anti_personnel_tech = 1
+	recon_tech = 1
+	bike_tech_1 = 1
+    	tribal_civilization = 1
+    	settled_civilization = 1
+	destroyer_tech = 1
+	cruiser_tech = 1
+	battleship_tech = 1 
+	heavy_cruiser_tech = 1
+	truck_tech_1 = 1
+}
+
+set_stability = 0.45
+set_war_support = 0.35
+
+set_research_slots = 4
+set_politics = {
+    parties = {
+        people = { popularity = 15 }
+        elites = { popularity = 75 }
+        intellectuals = { popularity = 5 }
+        ruler = { popularity = 5 }
+    }
+    ruling_party = elites
+    elections_allowed = no
+}
+# Barons: Elites
+create_country_leader = {
+	name = "Anton Flynn"
+	desc = "Anton_Flynn_DESC"
+	picture = "gfx/leaders/NCR/Portrait_Flynn.dds"
+	expire = "3000.1.1"
+	ideology = conspiratory_oligarchy
+					
+	traits = {
+						
+	}
+}
+
+	create_corps_commander = {
+    name = "General Joseph Polatli"
+    portrait_path = "gfx/leaders/BRR/General_Joseph_Polatli.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+    name = "General Carrie Boyd"
+    portrait_path = "gfx/leaders/BRR/General_Carrie_Boyd.dds"
+    skill = 2
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+    name = " General Magnum Boyd"
+    portrait_path = "gfx/leaders/BRR/General_Magnum_Boyd.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
+}
+create_corps_commander = {
+    name = "General Tyrone"
+    portrait_path = "gfx/leaders/BRR/General_Tyrone.dds"
+    skill = 1
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 5
+}
+	create_field_marshal = {
+    name = "Big Jim Marshal"
+    portrait_path = "gfx/leaders/BRR/Portrait_BigJim.dds"
+    skill = 4
+    traits = {
+    }
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+add_ideas = { 
+	settler_nation
+	settlerbrahminbarons
+}

@@ -1,0 +1,12 @@
+﻿units = {
+	navy = {				
+		name = "Boneyard Grand Fleet"			
+		base = 2407
+		location = 2407
+ship = { name = "Los Angeles Barge" definition = heavy_cruiser equipment = { heavy_cruiser_equipment_1 = { amount = 1 owner = HUB } } }
+ship = { name = "Los Angeles Barge" definition = heavy_cruiser equipment = { heavy_cruiser_equipment_1 = { amount = 1 owner = HUB } } }
+ship = { name = "Los Angeles Barge" definition = heavy_cruiser equipment = { heavy_cruiser_equipment_1 = { amount = 1 owner = HUB } } }
+
+	}
+}
+

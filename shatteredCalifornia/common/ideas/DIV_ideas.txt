@@ -1,0 +1,433 @@
+ideas = {
+
+		country = {
+		
+				 strongest = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						          army_attack_factor= 0.04
+				                  army_defence_factor = 0.02
+								  army_armor_speed_factor = 0.05
+								 }
+                
+				
+				}
+				 smartest = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						          research_time_factor = -0.05
+                                  production_speed_buildings_factor = 0.05
+								  production_factory_start_efficiency_factor = 0.05
+								 }
+                
+				
+				}
+				 healthiest = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						          MONTHLY_POPULATION = 0.03
+								  mobilization_speed = 0.03
+								  conscription_factor = 0.03
+								 }
+                
+				
+				}
+				 charismatic = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						         conscription_factor = 0.02
+								 MONTHLY_POPULATION = 0.06
+								 political_power_gain = 0.05
+								 }
+                
+				
+				}
+				wheeler = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						         experience_gain_army = 0.05
+								 training_time_factor = -0.2
+								 
+								 }
+                
+				
+				}
+				NEEDMORE = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+								line_change_production_efficiency_factor = 0.1
+								
+								 
+								 }
+                
+				
+				}
+				legion_nf_legionary_blacksmiths = {
+			
+			picture = rejection_of_automation
+			
+			removal_cost = -1
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		legion_nf_child_soldiers = {
+			
+			picture = generic_manpower_bonus 
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+                army_attack_factor = -0.1
+			}
+		
+		}		
+		ulysses1 = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						          army_core_attack_factor = 0.05
+				                  army_core_defence_factor = 0.1
+								  non_core_manpower = 0.2
+								 }		
+			}
+        oldworldtech = {
+						
+						 picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1  
+				
+				        Modifier = {
+						          MONTHLY_POPULATION = 0.06
+								  line_change_production_efficiency_factor = 0.1
+								  research_time_factor = -0.05
+								  }}
+			thevangraffs = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						          army_attack_factor= 0.04
+				                  army_armor_speed_factor = 0.05
+								 }
+				}
+				
+			
+            thecourier1 = { 
+			
+			               picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+						   Modifier = {
+						    conscription_factor = 0.05
+							war_support_weekly = 0.02
+							stability_weekly = 0.01
+							political_power_gain = 0.01
+							
+						   }
+						}  
+			 thepromiseofwealth1 = { 
+			
+			               picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+						   Modifier = {
+						   stability_weekly = 0.01
+						   consumer_goods_factor = 0.05
+						   MONTHLY_POPULATION = 0.1
+							
+							
+						   }
+						}
+						 thearmyoftherepublic1 = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						          army_attack_factor= 0.05
+				                  conscription_factor = 0.1
+								 }
+				}   
+				 thefollowersoftheapocalypse1 = { 
+			
+			               picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+						   Modifier = {
+						   stability_weekly = 0.05
+						   MONTHLY_POPULATION = 0.1
+						   research_time_factor = -0.1
+							
+						   }
+						}
+                        oldworldknowledge1 = {
+						
+						 picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1  
+				
+				        Modifier = {
+						          
+								  line_change_production_efficiency_factor = 0.1
+								  research_time_factor = -0.05
+								  }
+					}
+                        thedemandofnewequipment1 = {
+			
+			picture = generic_infantry_bonus
+			
+			
+			  allowed = {
+			}
+
+			removal_cost = -1
+			
+			
+			
+			equipment_bonus = {
+				enclave_power_armour_equipment_1 = {
+					build_cost_ic = -0.4
+					instant = yes
+	                	}}
+				equipment_bonus = {energy_equipment_2 = {
+					build_cost_ic = -0.4
+					instant = yes
+				}
+			}
+			}
+			
+		     theremnants = {
+						
+						 picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1  
+				
+				        Modifier = {
+						          army_core_attack_factor = 0.1
+					              army_speed_factor = 0.1
+								  army_morale_factor = 0.05
+				                  supply_consumption_factor = -0.1
+								  }
+								  equipment_bonus = {
+				                  category_all_infantry = {
+					              soft_attack = 0.1
+					              hard_attack = 0.1
+					              defense = 0.1
+				}
+				}
+								    research_bonus = {
+				                   land_doctrine = 0.3
+								   }
+								  
+					}
+		             thecrimsoncaravan1 = { 
+			
+			               picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+						   Modifier = {
+						   consumer_goods_factor = 0.2
+						   MONTHLY_POPULATION = 0.2
+						   supply_consumption_factor = -0.2
+						   line_change_production_efficiency_factor = 0.1
+						   production_speed_buildings_factor = 0.1
+						   production_factory_start_efficiency_factor = 0.1
+						   }
+						}
+		             thenewdraft = {
+					         picture = 
+							 
+							 allowed ={
+						   }
+						   
+						    removal_cost= -1
+						   
+						    Modifier = {
+							army_attack_factor= - 0.05
+				            conscription_factor = 0.3
+		                    mobilization_speed = 0.03
+							stability_weekly = - 0.01
+		}
+             movguns2 = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				equipment_conversion_speed = -0.15
+			}
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = 0.25
+					instant = yes
+				}
+			}
+}
+				tabitha1 = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						          army_attack_factor= 0.1
+				                  army_defence_factor = 0.05
+								  conscription_factor = 0.05
+		                          mobilization_speed = 0.05
+								  research_time_factor = 0.2
+								 }
+                
+				
+				} 
+				
+                 mutantmigration1 = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						          conscription_factor = 0.2
+		                          mobilization_speed = 0.09
+								  MONTHLY_POPULATION = 0.4
+								 }
+                
+				
+				} 
+                  nightkin2 = {
+				
+				           picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+					    Modifier = {
+						           army_core_attack_factor = 0.1
+				                   army_core_defence_factor = 0.5
+								 }
+                
+				
+				} 
+				 towork2 = { 
+			
+			               picture = generic_morale_bonus
+						   
+						   allowed ={
+						   }
+						   
+						   removal_cost= -1
+						   
+						   Modifier = {
+						   consumer_goods_factor = 0.2
+						   MONTHLY_POPULATION = -0.01
+						   supply_consumption_factor = -0.2
+						   line_change_production_efficiency_factor = 0.2
+						   production_speed_buildings_factor = 0.1
+						   production_factory_start_efficiency_factor = 0.05
+						   }
+						}
+				
+					
+
+			

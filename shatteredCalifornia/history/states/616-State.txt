@@ -1,0 +1,21 @@
+state = {
+	id = 616
+	name = "STATE_SUNNY_STONES"
+	manpower = 10
+	state_category = wasteland
+	impassable = yes	
+	resources = {
+	}
+	
+	history = {
+		owner = DIV
+		add_core_of = DIV
+		buildings = {
+		
+		}
+	}
+	
+	provinces = {
+		6593
+	}
+}

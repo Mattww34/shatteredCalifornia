@@ -1,0 +1,23 @@
+state = {
+	id = 469
+	name = "STATE_VALLEY_OF_THE_NAMES"
+	manpower = 7000
+	state_category = rural
+	
+	history = {
+		owner = GLO
+		
+		add_core_of = GLO
+		victory_points = {
+			5801 5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+	}
+	
+	provinces = {
+		855 5787 5788 5789 5795 5801 5802 5803 5807 5808 6660
+	}
+}

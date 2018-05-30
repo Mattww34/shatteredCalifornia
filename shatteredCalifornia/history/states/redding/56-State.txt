@@ -1,0 +1,25 @@
+state = {
+	id = 56
+	name = "STATE_56" # Tehama
+	manpower = 15000
+	state_category = rural
+	
+	history = {
+		owner = RNG
+		
+		add_core_of = BRR
+		add_core_of = RNG
+		victory_points = {
+			4899 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		
+		}
+	}
+	
+	provinces = {
+		1762 1766 1173 4899 4900 4810 4929 6661
+	}
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 80
+	name = "STATE_LAGUNA_MOUNTAINS" # Laguna Mountains
+	manpower = 11000
+	state_category = wasteland
+	impassable = yes
+	
+	history = {
+		owner = GLO
+		
+		add_core_of = GLO
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+	
+	provinces = {
+		804 4706 4707 4708
+	}
+}

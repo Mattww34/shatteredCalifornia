@@ -1,0 +1,9 @@
+﻿units = {
+	navy = {				
+		name = "Remnant Fleet"			
+		base = 2407
+		location = 2407
+ship = { name = "B.N.S. Anchorage" definition = carrier equipment = { carrier_equipment_1 = { amount = 1 owner = BNS } } }
+
+	}
+}

@@ -1,0 +1,75 @@
+﻿capital = 1
+oob = "HUB_2265"
+
+	set_technology = {
+		standard_weaponry_tech = 1
+		blunt_weaponry = 1
+		tribal_civilization = 1
+		settled_civilization = 1
+	}
+	
+	set_stability = 0.6
+	set_war_support = 0.2
+
+	set_politics = {
+		parties = {
+			people = { popularity = 20 }
+			elites = { popularity = 80 }
+			intellectuals = { popularity = 0 }
+			ruler = { popularity = 0}
+		}
+		ruling_party = elites
+		elections_allowed = yes
+	}
+
+set_research_slots = 3
+
+add_ideas = {
+	settler_nation
+	settlermerchantempire	
+}
+
+create_country_leader  = {
+    name = "Allen Green"
+    desc = ""
+    picture = "gfx/leaders/TheHub/allenGreen.dds"
+    expire = "3000.1.1"
+    ideology = militarist_oligarchy
+    
+    traits = {
+    }
+}
+create_corps_commander = {
+    name = "General_McGee"
+    portrait_path = "gfx/leaders/TheHub/General_McGee.dds"
+    skill = 2
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+   name = "Galviani"
+   portrait_path = "gfx/leaders/TheHub/Galviani.dds"
+   skill = 3
+   traits = {
+   }
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_field_marshal = {
+   name = "General Royez"
+   portrait_path = "gfx/leaders/TheHub/GeneralRoyez.dds"
+   skill = 4
+   traits = {
+    }
+	attack_skill = 4
+	defense_skill =3
+	planning_skill = 2
+	logistics_skill = 3
+}
+

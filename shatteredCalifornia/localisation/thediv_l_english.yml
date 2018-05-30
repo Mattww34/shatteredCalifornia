@@ -1,0 +1,235 @@
+﻿l_english:
+#----------------------
+#ideas
+#------------------------
+strongest:0 "We are the strongest"
+smartest:0 "We are the smartest"
+healthiest:0 "We are the healthiest"
+charismatic:0 "We are the most charismatic"
+wheeler:0 "General Wheeler"
+thecourier1:0 "The Courier"
+thepromiseofwealth1:0 "The Promise Of Wealth"
+ulysses1:0 "Ulysses"
+oldworldtech:0 "Old World Tech"
+thearmyoftherepublic1:0 "The Army Of The Republic"
+thefollowersoftheapocalypse1:0 "The Followers Of The Apocalypse"
+oldworldknowledge1:0 "Old World Knowledge"
+thedemandofnewequipment1:0 "The Demand Of New Equipment
+thecrimsoncaravan1:0 "The Crimson Caravan
+thenewdraft:0 "The New Draft" 
+movguns2:0 "Guns On Mass"
+tabitha1:0 "Tabitha"
+mutantmigration1:0 "Mutant Migration"
+nightkin2:0 "Nightkin"
+towork2:0 "To Work"
+#------------------------------
+#Starter focus
+#--------------
+thepeopleofthedivide:0 "The People Of The Divide"
+thepeopleofthedivide_desc:0 "The People Of The Divide will be tested what are they?"
+theoldarmybases:0 "The Old Army Bases"
+theoldarmybases_desc:0 "the old army bases near by  have been left untouched how can we use them"
+thefutureofthedivide:0 "The Future Of The Divide"
+thefutureofthedivide_desc:0 "Who has the will to bring the future to the Divide?"
+#-------------------
+#events
+#-------------------
+DIV.0.t:0 "The choice "
+DIV.0.d:0 "test test test test"
+DIV.0.a:0 "We are the strongest"
+DIV.0.b:0 "We are the smartest"
+DIV.0.c:0 "We are the most charismatic"
+DIV.0.e:0 "We are the healthiest"
+
+DIV.1.t:0 "The old army bases"
+DIV.1.d:0 "the old army beses have been left untouched how can we use them?"
+DIV.1.a:0 "we can use the resources"
+DIV.1.b:0 "we can use the equipment"
+DIV.1.c:0 "we can use Wheeler"
+
+DIV.2.t:0 "The War For The Divide"
+DIV.2.d:0 "Who will win the war for the divide"
+DIV.2.a:0 "Ulysses take's over"
+DIV.2.b:0 "For The New Republic"
+DIV.2.c:0 "Crazy Crazy Too Crazy"
+#-------------------------------------------------------------------------------
+#uylsses
+#---------------------------------------------------------------
+
+ulyssestakesover:0 "Ulysses Takes Over"
+ulyssestakesover_desc:0 "Ulysses Takes Over the Divide "
+ulyssesschosen:0 "Ulysses's Chosen "
+ulyssesschosen_desc:0 "Elite Warriors chosen by Ulysses"
+newwarriorsofthedivide:0 "New Warriors Of The Divide"
+newwarriorsofthedivide_desc:0 "New Warriors from all over the Divide have come to join and feel the power of Ulysses "
+onhisown:0 "On His Own"
+onhisown_desc:0 "Ulysses sees the lie that is Caesar and moves to make a new world in his image.   "
+oldworldtech:0 "Old World Tech"
+oldworldtech_desc:0 "tba"
+gunsgunsguns:0 "Guns,Guns,Guns"
+gunsgunsguns_desc:0 "tba"
+thevangraffs:0 "The Van Graffs "
+thevangraffs_desc:0 "tba"
+Wolfwood:0 "Wolfwood"
+Wolfwood_desc:0 "tba"
+TheNewWorldReborn:0 "The New World Reborn"
+
+#---------------------------------------------
+#ulysses legion
+#----------------------------------------
+truetocaesar:0 "True To Caesar "
+truetocaesar_desc:0 "Ulysses says loyal to Caesar"
+thelegionreinforcements:0 "The Legion Reinforcements  "
+thelegionreinforcements_desc:0 "The Legion sent reinforcements to Ulysses along with."
+needmoremachetes:0 "Need more machetes"
+needmoremachetes_desc:0 ""
+clul:0 "Caerser's Line"
+clul_desc:0 "tba"
+themojaveplan:0 "The Mojave Plan"
+themojaveplan_desc:0 "tba"
+#-------------------------------------
+#hope has come
+#-----------------------------
+hopehascome:0 "Hope Has Come"
+hopehascome_desc:0 " The Courier of the Mojave wasteland comes to power in the Divide and he brings hope with him."
+thepromiseofwealth:0 "The Promise Of Wealth "
+thepromiseofwealth_desc:0 "tba"
+thearmyoftherepublic:0 "The Army Of The Republic "
+thearmyoftherepublic_desc:0 "The new army is formed people from all over the divide come to join this new army"
+takingdowntheriders:0 "Taking Down The Riders "
+takingdowntheriders_desc:0 "Theses riders are a problem for the Republic and the good people that live under their rule the Mojave belongs to the Republic and the liberation of it starts here - The Courier The President Of The Mojave Republic."
+thedambusters:0 "The Dam Busters "
+thedambusters_desc:0 "The Dam Busters are good people they deserve to be in the republic "
+theliberationofnewvegas:0 "The Liberation Of New Vegas "
+theliberationofnewvegas_desc:0 "Those who run New Vegas have bullied the people of New Vegas so end turn we will liberation them"
+thenewcapitol:0 "The New Capitol"
+thenewcapitol_desc:0 "do not use unless you own new vegas as the Mojave Republic!!!!!!!"
+#-------------------------------------
+#foa
+#-------------------------------------
+thefollowersoftheapocalypse:0 "The Followers Of The Apocalypse  "
+thefollowersoftheapocalypse_desc:0 "The Courier has invited has long time friend and ally ag and with him The Followers Of The Apocalypse to help make this new republic great  "
+oldworldknowledge:0 "Old World Knowledge"
+oldworldknowledge_desc:0 "The followers have aided us with their knowledge"
+oldworldpower:0 "Old World Power"
+oldworldpower_desc:0 "The Followers of the Apocalypse have assisted in converting the old nuclear missiles into a new power plant for the republic   "
+theremnants:0 "The Remnants"
+theremnants_desc:0 "The Remnants of the once great and powerful Enclave have been in hiding all these years to avoid to NCR how ever the courier has guaranteed their safety in the Mojave Republic for all of them on one condition that they help pass on their knowledge and experience to the army and lead."
+thedemandofnewequipment:0 "The Demand Of New Equipment" 
+thedemandofnewequipment_desc:0 "in recent months the army has demanded more new equipment we must do all we can to help"
+SafeHavenForTheRemnants:0 "Safe Haven For The Remnants"
+SafeHavenForTheRemnants_desc:0 "tba"
+ForAuldLangSyne:0 "For Auld Lang Syne "
+ForAuldLangSyne_desc:0 "tba"
+#------------------------------
+#cc
+#----------------------
+thecrimsoncaravan:0 "The Crimson Caravan"
+thecrimsoncaravan_desc:0 "The Courier has allied with the Crimson Caravan to make this republic a forced to be reckon with.  "
+crimsonindustrie:0 "Crimson Industrie "
+crimsonindustrie_desc:0 "tba"
+thecrimsonroad:0 "The Crimson Road"
+thecrimsonroad_desc:0 "tba"
+theadoptedsonsofthenewrepublic:0 "The Adopted Son's Of The New Republic "
+theadoptedsonsofthenewrepublic_desc:0 "tba"
+themojaverangers:0 "The Mojave Rangers"
+themojaverangers_desc:0 "tba"
+crimsonequipmeant:0 "Crimson Equipmeant"
+crimsonequipmeant_desc:0 "tba"
+#--------------------------
+#crazycrazycrazy
+#------------------------
+crazycrazycrazy:0 "Crazy, Crazy, Crazy "
+crazycrazycrazy_desc:0 "Tabitha and her mutant army secures the Divide "
+ashtonradio:0 "Ashton Radio"
+ashtonradio_desc:0 "the lost of black mountain radio has hurt our glorious leader's PR campaign to unite the mutant army into one and take the Mojave so our glorious leader has order us to repair the radio in Ashton to spread her glorious message to all mutants.  I hate alot of words!!!!!!!!!!"
+mutantmigration:0 "Mutant Migration "
+mutantmigration_desc:0 "Nightkin and super mutants flock to ashton to join our beloved leader... not lot of words me happy"
+towork:0 "To Work!!!!!"
+towork_desc:0 "we must put our new slaves to work build our weapons for our new army this requires new factory's .......... TOO MUCH WORDS AHHH!!!!!!!!!!!!!!! [kills a human slave]  "
+thenewbatch:0 "The New Batch "
+thenewbatch_desc:0 "Krupper a  a super mutant stationed at the Mariposa Military Base has come to us with the FEV the human slave have proven their use to us they will became the first batch."
+giantsawake:0 "Giants Awake "
+giantsawake_desc:0 "THE BEHEMOTHS HAVE JOIN US "
+takebackwhatisours:0 "Take Back What Is Ours"
+takebackwhatisours_desc:0 "We must kill the bos scum for their genocide of mutants"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+thenewbos:0 "The New Bos"
+thenewbos_desc:0 "Bos outcasts sizes power in the Divide"
+
+
+
+securingtechnologybyassistingthepeople_desc:0 "tba"
+
+
+
+lettingthemin:0 "Letting Them In"
+lettingthemin_desc:0 "tba"
+
+
+
+
+
+
+leavingmaxsonbehind:0 "Leaving Maxson Behind "
+leavingmaxsonbehind_desc:0 "tba"
+
+
+
+
+
+thewallofsteel:0 "The Wall Of Steel"
+thewallofsteel_desc:0 "The construction of the wall of steel has begin it well keep our people safe "
+
+
+
+thefateofthesteel:0 "The Fate Of The Steel"
+thefateofthesteel_desc:0 ""
+
+
+brakingthechainthatbinds:0 "Braking The Chain That Binds"
+brakingthechainthatbinds_desc:0 "Chain That Binds is a Brotherhood of Steel policy that requires all members of the Brotherhood to obey a superior's orders and maintain chain of command when issuing them with no skipping ranks this policy is not in our best interest "
+
+
+
+
+
+
+morearmormorerifles:0 "More Armor, More Rifle's"
+morearmormorerifles_desc:0 "tba"
+
+
+
+
+
+
+
+
+
+
+
+

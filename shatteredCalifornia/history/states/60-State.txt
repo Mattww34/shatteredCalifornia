@@ -1,0 +1,26 @@
+state = {
+	id = 60
+	name = "STATE_60" # Gunderson Ranch
+	manpower = 15000
+	state_category = shanty
+	
+	history = {
+		owner = BRR
+		
+		add_core_of = BRR
+		victory_points = {
+			4850 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			4617 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces = {
+		1629 1769 1771 2433 4617 4618 4849 4850 4851 4852 4853 4854 8373
+	}
+}

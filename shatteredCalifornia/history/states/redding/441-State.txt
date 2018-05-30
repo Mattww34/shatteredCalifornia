@@ -1,0 +1,24 @@
+state = {
+	id = 441
+	name = "STATE_441" # Santa Rosa
+	manpower = 20000
+	state_category = shanty
+	
+	history = {
+		owner = RNG
+		
+		add_core_of = BRR
+		add_core_of = RNG
+		victory_points = {
+			1078 10
+		}
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+	
+	provinces = {
+		1078 1764 2607 4750 4751 4752 4753 4754 4755 4758 4892 4894 4895 4896
+	}
+}

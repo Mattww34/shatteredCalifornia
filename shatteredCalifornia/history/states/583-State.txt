@@ -1,0 +1,23 @@
+state = {
+	id = 583
+	name = "STATE_OCOTILLO" # Ocotillo
+	manpower = 11000
+	state_category = town
+	
+	history = {
+		owner = GLO
+		
+		add_core_of = GLO
+		victory_points = {
+			4971 5
+		}
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+	
+	provinces = {
+		860 3302 4637 4970 4971 4972 4981 5780 5781 6659
+	}
+}

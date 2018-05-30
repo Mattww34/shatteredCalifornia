@@ -1,0 +1,294 @@
+﻿l_english:
+############################## Baron of Barons #####################################
+
+Baron:0 "Baron of Barons"
+Baron_desc:0 "The economy of the Republic can be vast and powerful. From Brahmin to water, all precious resources are controlled by only a handful of men. When these men work together, their political and economy sway can make miracles happen in unlikely places."
+
+sac_1:0 "Sac City Reborn"
+sac_1_desc:0 "Sac-Town was once the former capital of California before the bombs fell, and not long after that, it became a bastion for raiders and tribals, notably the 80's. However, town was never a proper term for such a place, and the republic has made strives to establish the location as an economic hub, their capital city."
+
+sac_2:0 "The 80's Garages"
+sac_2_desc:0 "The 80's Tribe were once among the most powerful raider gangs in all of california, ritual preservationists who maintained their motorbikes with superstitious attention and care. However, the 80's were little match for the republic military that later pushed them out from their homelands, and to this day, their numerous garages and temples lay mostly untouched, as do the secrets contained within them."
+
+sac_3:0 "Baron Investment Opportunities"
+sac_3_desc:0 "The economic power of the Baron's can't be understated, and while they often feud, when their minds are put to a task, they can accomplish almost anything within reason. Be it the forced takeover of criminal assets, the corruption of the local police force, or a simple aggressive acquisition of all local competitors."
+
+sac_4:0 "The new Wall to the North"
+sac_4_desc:0 "Relations with Redding in the north have never been good. With tensions guaranteed, the locals at the northern border have petitioned the republican government and the baron for safety. Advisors have laid out plans for the building of a wall that will help us secure the whole border area."
+
+stockton_1:0 "Stockton Prospers"
+
+
+stockton_2:0 "Collaboration with the Crimson Caravan"
+
+stockton_3:0 "Dealing with Crime"
+
+stockton_4:0 "The Baron's Road"
+
+visalia_1:0 "Visalia flourishes"
+
+visalia_2:0 "Reviving Arms Factories"
+
+visalia_3:0 "Renovation of Vis Corps"
+
+visalia_4:0 "Additions to the Baron's Road"
+
+
+############################## political strife #####################################
+political_strife:0 "Motives and goals"
+political_strife_desc:0 "Deciding which topic is the most important one is only one of many qualities a leader needs to have. Flynn is a very good leader."
+
+intellectual_1:0 "A Gathering of Minds"
+intellectual_1_desc:0 "What this country needs is a set of minds put together to direct it to a better future."
+
+intellectual_2:0 "A Deal that needs to be done"
+intellectual_2_desc:0 "Leading intellectuals suggest that we make an offer to the foreigners in the west we had trouble with in the past; The Shi. In exchange for letting go one region we can make a treaty that gets us a share of their laser muskets."
+
+intellectual_3:0 "Wisdom of old"
+intellectual_3_desc:0 "With our relations with the Shi improving and our understanding for technology growing, we have made progress that will ensure our technology advance in the future."
+
+intellectual_4:0 "Like minded"
+intellectual_4_desc:0 "In order for our Republic to survive the future as well as to step up in the world as a power of technology, we need to further deepen our relations with the Shi. If we guarantee each other's safety from now on, we can help each other effectively in the future."
+
+ruler_1:0 "Business as usual"
+ruler_1_desc:0 "Trust in other people is a luxury Flynn cannot affort. Therefore, he will have plans of his own from now on. For now, he works to increase his network even more while making life for the other ranchers easier."
+
+ruler_2:0 "A Call to a feast"
+ruler_2_desc:0 "The plan is made. For it to be a success, Flynn needs to travel to the Hub in order to get the right ingredients - and make vital business partners for the future."
+
+ruler_3:0 "Rancher recruitment act"
+ruler_3_desc:0 "In order to defend the Baron's Republic, every rancher has to do his part. That is an accepted truth. For this reason, the Rancher Recruitment Act is a necessity born from logical thought to insure the survival of the Republic."
+
+ruler_4:0 "Just another feast, buddies"
+ruler_4_desc:0 "The time has come to cast the die. The Baron's Republic consists of various influential people and all of them are coming together of the beheast of Anton Flynn himself. The official reason for this event is a simple one; To enjoy pleasures of life. In secret, Flynn has worked months to prepare his own personal coup."
+
+people_1:0 "Recruiting Campaign"
+
+people_2:0 "The brahmin bill"
+
+people_3:0 "Military centres"
+
+people_4:0 "The Baron's council hill meeting"
+
+elites_1:0 "The Baron's constitution"
+
+elites_2:0 "Proceed as planned"
+
+elites_3:0 "Iron fist"
+
+elites_4:0 "Common ground"
+
+
+############################## People Tradition #####################################
+
+people_tradition:0 "The true capital of California"
+Scav_sac_city1:0 "Gold digging in Sac-City"
+State_library:0 "Reclaim the State Library!"
+State_capitol:0 "Reclaim the State Capitol!"
+library_excavation:0 "Library excavation"
+library_rebuild:0 "Library rebuilt"
+Capitol_excavation:0 "Capitol excavation"
+Capitol_rebuild:0 "Capitol rebuilt"
+Sleep_train_arena:0 "The heart of sports"
+reviving_sports_league:0 "Reviving the Sports league"
+league_radio:0 "A radio for the league"
+join_cali_league:0 "Join the californian League"
+first_season:0 "The first season"
+deeper_connections:0 "Deeper Connections"
+
+############################## Diplomatics #####################################
+
+Diplomatics_reno:0 "The biggest little City"
+Diplomatics_reno_desc:0 "New Reno and the Baron's Republic have good history with each other. We can focus on deepen that relations even further to ensure both parties' survival."
+Reno_agreements:0 "Gentlemen's agreement"
+Reno_agreements_desc:0 "The first step in order to better our relations and to secure our northeastern border is a treaty of non-aggression. We have already prepared the treaty itself. We just need to get it to New Reno."
+reno_guarantee:0 "A good offer"
+reno_guarantee_desc:0 "The second approach towards New Reno should ensure that no one messes with them or us in the future without provoking the combined wrath of Gangsters and Ranchers alike. Guaranteeing the independence will do the trick."
+Reno_allies:0 "Friends of the past"
+Reno_allies_desc:0 "Now that we have found a faction to trust in, it only makes sence to invite our close friends of New Reno to join us. Let the wasteland know that the Baron's Republic and New Reno stand side by side in the upcoming conflicts."
+
+Diplomatics_NCR:0 "The bear in the south"
+Diplomatics_NCR_desc:0 "Although our relations with the NCR are indifferent at best, it cannot be denied that if we would align ourselfs with them, we can have certain benefits."
+ncr_agreements:0 "A letter to congress"
+ncr_agreements_desc:0 "Our first step should be a direct approach of the NCR congress in order to get them to sign a pact of non-aggression that saves not only our borders but also deepens our relations." 
+NCR_guarantee:0 "Mutual understanding"
+NCR_guarantee_desc:0 "Now we should approach our southern soon-to-be friends again. This time, a treaty in which we guarantee the independence of each other is in order to further bind them to us."
+NCR_allies:0 "Friends of tomorrow"
+NCR_allies_desc:0 "It's time to get our southern brothers to join our cause."
+
+rivalry_redding:0 "The never ending Story"
+rivalry_redding_desc:0 "The Story of Redding is one of discontent among both sides. It began as the northern part of the Baron's Republic being discontent about the state of supplies and turned over time to a full blown rebellion of the ranchers there. After the ranchers declared independence, they were brutally massacred by the exact people they claimed to protect. The community of Redding was born after that act of betrayal and cruelty."
+gain_support:0 "unpopular approach"
+gain_support_desc:0 "Further bloodshed followed. The losses on both sides were high to an amount where it can be questioned if war is still the right approach."
+seek_truce:0 "Divide and conquer"
+seek_truce_desc:0 "While it cannot be denied that we are in the right, sometimes the stronger one has to abide in order for things to go better. Risking lives in another war with Redding is not the answer. A truce should be."
+bury_hatchet:0 "For a greater good"
+bury_hatchet_desc:0 "In order to make our intentions clear, we have to give something. If we want to truly have peace in the north, we have to let go of our wish to retake it. Instead, we can make sure no one else takes on the new community in the north and perhaps get them to align with us. A most surprising ally in the north could be a big advantage."
+gain_support_against:0 "Regain what is lost"
+gain_support_against_desc:0 "Where others have failed, we will not! It is time to finally settle the score with Redding."
+prepare_invasion:0 "Do what's neccessary"
+prepare_invasion_desc:0 "In the past, ranchers let their own code of honor intervere in their decision making when it came on who is to send to the front lines. We cannot have both honor and success! We have to make sacrifices in order to secure victory."
+ready_go:0 "Start the invasion"
+ready_go_desc:0 "This is it! Let us march on into the north and reclaim our ranches from the rebels!"
+
+############################## Beginning ##############################
+
+beginning:0 "Humble Beginnings"
+beginning_desc:0 "Every country has a start. The Baron's Republic is no different. They can look on a proud, conservative past in which loyalty between employer and employee was and is valued greatly."
+infight:0 "Rancher's Infight"
+infight_desc:0 "With a great sense of pride and belonging comes the need of protection and expansion. The ranchers that took care of their people and land also took care of their business rivals and personal enemies."
+union:0 "The Baron's Republic"
+union_desc:0 "As time passed by, the constant infight brew it's own problems. With well connected, respected and good equipped families fighting each other, no real progress could be made. An ambitious rancher attempted to change that. His name was Anton Flynn."
+
+############################## Republican Military #####################################
+
+republican_military:0 "The Republican Military"
+republican_military_desc:0 "After the Republic has been founded, Flynn knows that his daring act of unification is a lost cause without the capability to defend his very idea of a republic. He knows that he needs to round up the right ranchers and support their initiatives in order to gain not only their loyalty, but also a decent army that is ready in times of need."
+
+jims_army:0 "Jims Army"
+jims_army_desc:0 "One of the ranchers has made quite a name for himself. His name is Big Jim Marshall. Flynn and Marshall have good history with each other. It is not surprising that Flynn supports his friend in his endeavours to create a standing army."
+jims_march:0 "Jims March"
+jims_march_desc:0 "With the drills getting done, the next step for Big Jim is to test his fresh recruits by a desert trial by fire; Sending them on marches that harden them up. That prepare them for the harsh environments they will have to face when it comes to war."
+jims_draft:0 "Jim's Draft"
+jims_draft_desc:0 "The ongoing drills and marches have made tough, respectable men that can be trusted to work as a real force. Big Jim realizes that he needs to put more effort to get new recruits to join the ranks of the fresh republican army. After all, strength still lies in good training as well as numbers."
+jims_concept:0 "Jims Concept"
+jims_concept_desc:0 "Everything the newly founded army has done will bear fruit. With the recruits gaining experience by the day it is only a matter of time until this army will be a force to be reckoned with. Big Jim does what he can to bring his very own concept to life."
+
+magnums_ideas:0 "Magnum's Ideas"
+magnums_ideas_desc:0 "Given the rather tensious relationship between Magnum Boyd and Anton Flynn, it surprised many ranchers that the baron decided to aid Magnum in his endeavour to follow the idea of a proper equipment for the fresh republican forces, for the best man can be worthless without his proper tools."
+magnums_standardization_act:0 "Magnum's Standardization Act"
+magnums_standardization_act_desc:0 " Although the political differences between the rather conservative Flynn and the progressive Magnum are obvious, Flynn sees merit in his ideas. Getting on with the standardization act was a neccessary formality for Flynn to show his public support to Magnum and the goal of providing decent gear for the soon-to-be army."
+magnums_mech_core:0 "Magnum's Mech Core"
+magnums_mech_core_desc:0 "With the political help of Flynn, Magnum holds his end of the bargain. He makes great efforts to install mechanic structures out of the former 80's remnants that support a future motorization of our forces."
+magnums_shock_companies:0 "Magnum's Shock Companies"
+magnums_shock_companies_desc:0 "The success of the freshly implemented mechanic stations is greater than anticipated. Not only is the republic able to field retrofitted civilian vehicles, but also old police and army vehicles."
+
+polatlis_idea:0 "Polatli's Idea"
+polatlis_idea_desc:0 "Joseph Polatli was one of the minor landowners that has roots in the area around sac-city since it was retaken from the 80's. He presented to Flynn his believe that in order for the republic to be defensable, it has to build an air force. The rather humble beginning of this endeavour is the renovation of the pre-war sac-city Airport." 
+polatlis_airborne_act:0 "Polatli's Airborne Act"
+polatlis_airborne_act_desc:0 "While the renovation process is ongoing, folders of old times have been dug up. Polatli has already begun to study them. He thinks that this find will seriously help his efforts."
+polatlis_cas_plan:0 "Polatli's Plans"
+polatlis_cas_plan_desc:0 "Polatli has come up with new findings. He claims to have found pieces of schematics that will help his effort in reconstructing an airforce for the republic." 
+polatlis_superior_plan:0 "Superior Air Force"
+polatlis_superior_plan_desc:0 "Another found has been reported by Polatli. He stated that the archives are now fully catalogized and able to be used to retrofit planes to fighters more effectively." 
+################################## National Spirits ##############################################
+
+renovation_vis_corps:0 "Vis Corps"
+republic_standardization_production:0 "Standardized Production"
+secret_societies:0 "Secret Societies"
+baronleague:0 "Barons League Radio Broadcast"
+secret_connections:0 "Secret connections"
+secret_deal:0 "Secret deal"
+secret_deal1:0 "Secret deal"
+rancheract:0 "Rancher recruitment act"
+military_propaganda:0 "Military Propaganda"
+military_propaganda2:0 "Military Propaganda II"
+military_propaganda3:0 "Military Propaganda III"
+brahmin_bill:0 "Brahmin Bill"
+constitution:0 "Baron's Constitution"
+extended_contracts:0 "Extended Contracts"
+harmed_economy:0 "harmed economy"
+consensus_among_barons:0 "Consensus among ranchers"
+library_excavated:0 "Library excavated"
+capitol_rebuild:0 "Capitol rebuilt"
+capitol_excavated:0 "Capitol excavated"
+invasion_preparation:0 "Invasion preparations"
+
+Writing_constitution:0 "Writing the constitution"
+enacting_recruiting_campaign:0 "Enacting a recruitment campaign"
+continue_business_usual:0 "Continue business as usual"
+gather_intellectuals:0 "Hold secret meetings"
+
+################################## EVENTS ##############################################
+
+brr_events.1:0 "Stockton Crime"
+brr_events.1.t:0 "Stockton Crime"
+brr_events.1.d:0 "Crime has been an issue in Stockton for the better part of seven generations. Always growing a little worse, getting a little closer to being utterly out of hand. Only the barons have the influence and the power to put a stop to it, but then again... who's to say they won't just cash in?"
+brr_events.1.a:0 "The Barons invest in Drugs."
+brr_events.1.b:0 "The Barons invest in Weapons."
+brr_events.1.c:0 "The Barons crack down on crime."
+
+brr_events.2.t:0 "The Red Feast"
+brr_events.2.d:0 "As the other barons arrive at the festival house that has undergone serious preparations, Anton Flynn smiles down from his balcony. From here, he can watch as the crowd of his fellow oligarchic friends and enemies alike becomes larger. From here he can see the curtains that currently block the line of view. The guests think that behind them their next hedonistic pleasure is being prepared, like the host of the evening has promised. If they ony knew that Flynn's most loyal men wait there, ready to shoot on his command..."
+brr_events.2.a:0 "Let the party begin!"
+
+brr_events.3.t:0 "Baron's Council Hill Meeting"
+brr_events.3.d:0 "The Barons have been summoned to converse about the future of the republic. The presence of the military leaders is supposed to be of little importance since the great landowners demand concessions in order to hold the peace inside the whole state. Flynn offers to take over the peace talks but he demands to be a part of the future government. Without his influence and help, we will not be able to convince the other landowners and ranchers which will seriously impact our stability. A choice has to be made."
+brr_events.3.a:0 "No compromise! This will be a people's republic!"
+brr_events.3.b:0 "We should make a deal with Flynn. Better some small scale democracy than civil war."
+
+brr_events.4.t:0 "The Baron's Union"
+brr_events.4.d:0 "One man grew tired of the sportslike feuding the other ranchers persued. Anton Flynn. He realized that only if the ranchers would unite, they would be able to uphold the living style of their ancestors. Determined to change things, he started to create the republic with him being the protecting baron."
+brr_events.4.a:0 "Flynn set up a meeting with the other ranchers to persuade them"
+brr_events.4.b:0 "Flynn rallied supporters among the ranchers and coerced the rest"
+brr_events.4.c:0 "Flynn worked to gain the support of various ranchers without any further infight"
+
+brr_events.5.t:0 "Beginnings of the Ranchers"
+brr_events.5.d:0 "Before the baron's republic has been formed, the lands that are now a part of it were mostly independent communities that grew and fell with their leaders. In the agricultural lands of the now known republic, this position often fell to the ranchers that built their domains and protected them, feeling responsible for their people, their economic success and something good for the next generation to leave behind."
+brr_events.5.a:0 "The ranchers depended heavily on their economic success"
+brr_events.5.b:0 "The ranchers took special care of their people"
+brr_events.5.c:0 "The ranchers worked hard to leave something good behind for the next generation"
+
+brr_events.6.t:0 "Rancher's feuds"
+brr_events.6.d:0 "The backside of independent domains such as the rancher's was a constant possibility of war and distrust, which often lead to feuds between the ranchers that brought problems with it. To win a feud, a rancher had multiple possibilities. He could rely on mercenaries, his economic power or his political standing to fight his rival."
+brr_events.6.a:0 "Ranchers fought each other with mercenaries"
+brr_events.6.b:0 "Ranchers fought each other economically"
+brr_events.6.c:0 "Ranchers fought politically"
+
+brr_events.7.t:0 "Political Agenda"
+brr_events.7.d:0 "As time progresses, Flynn has plenty of political issues he can take his attention on. What will he do?"
+brr_events.7.a:0 "write the baron's constitution"
+brr_events.7.b:0 "issue an recruiting campaign"
+brr_events.7.c:0 "continue business as usual"
+brr_events.7.e:0 "make secret gatherings"
+
+brr_events.8.t:0 "Dayglow Ranger Agreement"
+brr_events.8.d:0 "A representative from the baron's republic has arrived. Our highly skilled ranger forces under the command of Ranger general Mossman command the respect of the republic. The Baron wishes to make Dayglow an offer: Various favorably trade deals and good relations with the Baron's Republic in exchange for our help in training their own Ranger forces. How do we react?"
+brr_events.8.a:0 "We agree."
+brr_events.8.b:0 "We decline."
+
+brr_events.9.t:0 "Rise and Fall"
+brr_events.9.d:0 "The once great city that is now simply known as "Sac-City" was a great metropolis of pre war times. Nostalgia as well as constantly present rumors get scavengers from all over the country to Sac-City to scavenge the ruins of the past. Sometimes, fate smiles upon them."
+brr_events.9.a:0 "Power armor! Just kidding...."
+brr_events.9.b:0 "Gatling Lasers! In my dreams..."
+brr_events.9.c:0 "A cure for cancer! Not really..."
+
+brr_events.10.t:0 "Baron's league, season one"
+brr_events.10.d:0 "the first season is held in the freshly renovated Sleep Train Arena. With many teams signing up for the league, three teams are the outspoken favourites of the season. Firstly, the republican military sends a team from it's very first land division. Secondly, the newly founded Sacramento Kings that are backed by Anton Flynn and his supporters. Lastly, a team of former scavengers from Stockton has signed up to get their adrenaline kick. Who will win the first season of many to follow?"
+brr_events.10.a:0 "The Stockton Scavengers, underdogs of the league"
+brr_events.10.b:0 "The first land division, saviours of the republic"
+brr_events.10.c:0 "The Sacramento Kings, the professionals of tomorrow"
+
+brr_events.11.t:0 "An offer from the baron's republic"
+brr_events.11.d:0 "As it appears, our newly founded sports league is getting some recognition from the outside. The Baron's Republic has formally asked to join it in order to send their own teams at the start of the next season. Agreeing to this could deepen our connection with the republic in the north while declining could be seen as a move of strong will towards the nationalists. How should we respond?"
+brr_events.11.a:0 "We agree. Let the Republic join the league!"
+brr_events.11.b:0 "We decline. No dirty ranchers in our league!"
+
+brr_events.12.t:0 "a surprising offer from the Baron's Republic"
+brr_events.12.d:0 "Today a representative from the Baron's Republic has arrived at Redding. His additude was surprisingly calm and polite, despite being immediately apprehended by our guards. He claims to just want to make an offer to us that comes directly from the Baron himself; The recognition of our sovereignty. Without anything demanded in return, the offer seems too good to be true. On the other hand, why not try to give peace a chance in the wasteland?"
+brr_events.12.a:0 "Let's be daring. We accept the generous offer."
+brr_events.12.b:0 "The shady Baron cannot be trusted!"
+
+brr_events.13.t:0 "Calling for a truce"
+brr_events.13.d:0 "Our relationship with the Baron's Republic has never been great. Since our secession, the barons resent us with every inch of their body, while we gladly returned this favor. Out of our secession grew several conflicts that in return made more reasons for both parties to continue a constant state of war against each other. Until now, that is. Our troops stopped reporting incidends along the border to the Baron's Republic and now we even received a formal calling for a truce from the Baron himself. First politicians are already in the process of celebrating the first victory of the independent state of Redding while several higher ups in the military remain suspicious."
+brr_events.13.a:0 "Time for a leap of faith. We sign the truce."
+brr_events.13.b:0 "Just another scheme of the Barons, no doubt!"
+
+brr_events.14.t:0 "Guarantee accepted"
+brr_events.14.d:0 "Our offer was accepted!"
+brr_events.14.a:0 "Good."
+
+brr_events.15.t:0 "A matter of independence"
+brr_events.15.d:0 "A messenger from the Baron's Republic has arrived today in our capital. He brings word from the Baron himself who wants to deepen our relationship with a treaty that guarantees the independence of both parties. How do we react?"
+brr_events.15.a:0 "We sign the treaty."
+brr_events.15.b:0 "We refuse."
+
+brr_events.16.t:0 "A non-aggression pact with the Baron's Republic?"
+brr_events.16.d:0 "Today a messenger arrived from the Baron's Republic. He carries a message from the Baron in which he declares his intention of a friendly relation to us. To make this intention a reality, he asks us to sign a pact of non-aggression."
+brr_events.16.a:0 "Sign the treaty."
+brr_events.16.b:0 "We refuse."
+
+brr_events.17.t:0 "Joining on behalf of the Baron's Republic"
+brr_events.17.d:0 "the Leadership of the Baron's Republic has sent an representative today, asking us to join their faction in order to stand together against future threats."
+brr_events.17.a:0 "Alright. Let's unite."
+brr_events.17.b:0 "No"

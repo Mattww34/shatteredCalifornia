@@ -1,0 +1,88 @@
+﻿capital = 141
+oob = "RNG_2265"
+
+	set_technology = {
+		standard_weaponry_tech = 1
+		blunt_weaponry = 1
+		tribal_civilization = 1
+		settled_civilization = 1
+	}
+	
+	set_stability = 0.6
+	set_war_support = 0.2
+
+	set_politics = {
+		parties = {
+			people = { popularity = 80 }
+			elites = { popularity = 0 }
+			intellectuals = { popularity = 0 }
+			ruler = { popularity = 20}
+		}
+		ruling_party = people
+		elections_allowed = yes
+	}
+	
+add_ideas = { 
+	settler_nation
+	settleredding
+}
+
+set_research_slots = 4
+
+create_country_leader  = {
+    name = "Dan McGrew"
+    desc = ""
+    picture = "gfx/leaders/Redding/DanMcGrew.dds"
+    expire = "3000.1.1"
+    ideology = constitutional_republic
+    
+    traits = {
+    }
+}
+
+create_country_leader  = {
+    name = "Dan McGrew"
+    desc = ""
+    picture = "gfx/leaders/Redding/DanMcGrew.dds"
+    expire = "3000.1.1"
+    ideology = constitutional_republic
+    
+    traits = {
+    }
+}
+
+create_corps_commander = {
+    name = "General Gilles"
+    portrait_path = "gfx/leaders/Redding/General_Gilles.dds"
+    skill = 2
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+    name = "General James Hsu"
+    portrait_path = "gfx/leaders/Redding/Portrait_Hsu.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_field_marshal = {
+    name = "General Mad Dog Mattus"
+    portrait_path = "gfx/leaders/Redding/GeneralMadDogMattus.dds"
+    skill = 5
+    traits = {
+    }
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+

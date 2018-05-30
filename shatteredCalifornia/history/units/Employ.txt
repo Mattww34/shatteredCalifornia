@@ -1,0 +1,12 @@
+﻿units = {
+	navy = {				
+		name = "San Gabriel Trade Fleet"			
+		base = 5923
+		location = 5923
+		ship = { name = "San Gabriel Trade Ship" definition = light_cruiser equipment = { light_cruiser_equipment_3 = { amount = 1 owner = HUB } } }
+		ship = { name = "San Gabriel Trade Ship" definition = light_cruiser equipment = { light_cruiser_equipment_3 = { amount = 1 owner = HUB } } }
+		ship = { name = "San Gabriel Trade Ship" definition = light_cruiser equipment = { light_cruiser_equipment_3 = { amount = 1 owner = HUB } } }
+
+	}
+}
+

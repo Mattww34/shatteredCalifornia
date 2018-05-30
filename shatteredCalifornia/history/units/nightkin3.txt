@@ -1,0 +1,40 @@
+division_template = {
+	name = "Nightkin Infantry"
+	
+	regiments = {
+		super_mutant_infantry = { x = 0 y = 0 }
+		super_mutant_infantry = { x = 0 y = 1 }
+		super_mutant_infantry = { x = 0 y = 2 }
+		super_mutant_infantry = { x = 0 y = 3 }
+		super_mutant_infantry = { x = 1 y = 0 }
+		super_mutant_infantry = { x = 1 y = 1 }
+		super_mutant_infantry = { x = 1 y = 2 }
+		super_mutant_infantry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division {
+		name = "Nightkin Infantry"
+		location = 3231
+		division_template = "Nightkin Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division {
+		name = "Nightkin Infantry"
+		location = 3231
+		division_template = "Nightkin Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division {
+		name = "Nightkin Infantry"
+		location = 3231
+		division_template = "Nightkin Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}

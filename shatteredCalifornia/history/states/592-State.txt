@@ -1,0 +1,30 @@
+state = {
+	id = 592
+	name = "STATE_ASHTON"
+	manpower = 40000
+	state_category = large_city
+	
+	resources = {
+		water = 8
+		metal = 20
+		electronics = 15
+	}
+	
+	history = {
+		owner = DIV
+		add_core_of = DIV
+		victory_points = {
+			3231 10
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 5
+			air_base = 1
+		}
+	}
+	
+	provinces = {
+		3264 3231 3256 3260 3257 3258 3259
+	}
+}

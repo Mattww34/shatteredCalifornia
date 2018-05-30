@@ -1,0 +1,98 @@
+add_namespace = DIV_events 
+
+country_event = {
+    id = DIV_events.1
+    title = DIV.0.t
+    desc = DIV.0.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+
+        option = {
+    name = DIV.0.a
+    add_ideas= strongest
+	
+    }
+        option = {
+    name = DIV.0.b
+    add_ideas= smartest
+
+        }
+        option = {
+    name = DIV.0.c
+    add_ideas= healthiest
+    }
+	      option = {
+    name = DIV.0.e
+    add_ideas= charismatic
+    }
+}
+    country_event = {
+    id = DIV_events.02
+    title = DIV.1.t
+    desc = DIV.1.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+
+        option = {
+    name = DIV.1.a
+    add_resource = {type = metal amount= 10 state = 13}
+	add_resource = {type = fuel amount= 5 state = 617}
+	add_resource = {type = advanced_technology amount = 5 state = 617}
+    }
+        option = {
+    name = DIV.1.b
+    add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1000 producer = <DIV> }
+    add_equipment_to_stockpile = { type = anti_personnel_equipment_1 amount = 50 producer = <DIV> }
+	add_equipment_to_stockpile = { type =support_equipment amount = 250 producer = <DIV> }
+        }
+        option = {
+    name = DIV.1.c
+    add_ideas = wheeler
+	create_corps_commander = {
+    name = "General Wheeler"
+    portrait_path = "gfx/leaders/DIV/GeneralWheeler.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+    }
+}	
+country_event = {
+    id = DIV_events.3
+    title = DIV.2.t
+    desc = DIV.2.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+
+        option = {
+     name = DIV.2.a
+     complete_national_focus = ulyssestakesover 
+      }
+	   option = {
+	   name = DIV.2.b
+	   complete_national_focus = hopehascome
+	   }
+	   option = {
+	   name = DIV.2.c
+	   complete_national_focus = crazycrazycrazy
+	   }
+	   }
+
+
+
+
+
+
+
+
+
+
+
+
+   
+	}
+}

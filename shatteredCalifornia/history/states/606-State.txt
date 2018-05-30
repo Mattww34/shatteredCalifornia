@@ -1,0 +1,26 @@
+
+state={
+	id=606
+	name="STATE_606" # Southern Diablo Range
+
+	history={
+		owner = BOS
+		
+		add_core_of = BOS
+		victory_points = {
+			4606 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2020 2271 2440 2458 4605 4606 4726 4727 4795 4831 5046 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,304 @@
+ideas = {
+	country = {
+        
+		consolidateResources = {
+			
+			picture = generic_production_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		hubmercenaries = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.02
+					
+            }
+        }
+		hireGunsmiths = {
+            
+            picture = generic_morale_bonus
+            
+			allowed = {
+            }
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+				ballistic_equipment_2 = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				ballistic_equipment_1 = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+
+        }
+		hubsafestborders = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.02
+					
+            }
+        }
+		hubprot = {
+			picture = generic_morale_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+			}
+		}
+		hubstreamlinedweaponry = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			industrial_capacity_factory = 0.1
+		    }
+		}
+		hubfreezone = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.1
+            }
+        }
+		hubpoliceforce = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.005
+					
+            }
+        }
+		hubharold = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.1
+		    }
+		}
+		hubconsolidatemerchant = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			    industrial_capacity_factory = 0.07
+		    }
+		}
+		hubserviceforwater = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.03
+					
+            }
+        }
+		hubbrotherhoodideals = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				intellectuals_drift = 0.05
+		    }
+		}
+		hubwhychange = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				elites_drift = 0.05
+		    }
+		}
+		hubbosdebts = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = 0.1
+            }
+        }
+		boshubdebts = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.1
+            }
+        }
+		hubdemocratic = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				people_drift = 0.05
+		    }
+		}
+		hubequalopportunity = {
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		hubdemoelections = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.15
+		    }
+		}
+		hubunderground = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				ruler_drift = 0.05
+		    }
+		}
+		hubdeckersplan = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				ruler_drift = 0.05
+		    }
+		}
+		hubmilitaryexpansion = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.05
+					
+            }
+        }
+		efficienttrade = {
+			
+			picture = bunker_blues
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = 0.80
+			
+			}
+			
+			
+		}
+	}
+}

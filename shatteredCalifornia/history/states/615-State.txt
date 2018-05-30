@@ -1,0 +1,21 @@
+state = {
+	id = 615
+	name = "STATE_GLOWING_HILLS"
+	manpower = 10
+	state_category = wasteland
+	impassable = yes	
+	resources = {
+	}
+	
+	history = {
+		owner = DIV
+		add_core_of = DIV
+		buildings = {
+		
+		}
+	}
+	
+	provinces = {
+		6594
+	}
+}

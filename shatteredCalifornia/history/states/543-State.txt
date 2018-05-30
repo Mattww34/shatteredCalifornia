@@ -1,0 +1,26 @@
+
+state={
+	id=543
+	name="STATE_543" # Marysville Ranch
+
+	history={
+		owner = BRR
+		
+		add_core_of = BRR
+		victory_points = {
+			2436 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1115 1765 1772 2436 2437 4870 4872 4889 4890 4891 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

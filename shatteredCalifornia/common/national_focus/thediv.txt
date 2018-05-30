@@ -1,0 +1,1401 @@
+focus_tree = {
+	id = DIV
+	country = {
+		factor = 0
+		modifier = {
+			add = 0
+			tag = DIV
+		}
+	}
+	default = no
+	focus = {
+		id = thepeopleofthedivide
+		icon = GFX_goal_tripartite_pact
+		x = 11
+		y = 0
+		cost = 1
+		completion_reward = {
+		      country_event = { id = DIV_events.1 }
+		}
+	}
+	focus = {
+		id = theoldarmybases 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thepeopleofthedivide
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 11
+		y = 1
+		cost = 1
+		completion_reward = {
+			country_event = { id = DIV_events.2 }
+		}
+}
+	focus = {
+		id = thefutureofthedivide 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = { 
+			focus = theoldarmybases  
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 11
+		y = 2
+		cost = 1
+		completion_reward = {
+			country_event = { id = DIV_events.3 }
+		}
+	}
+	focus = {
+		id = ulyssestakesover 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus =thefutureofthedivide 
+		}
+		mutually_exclusive = {
+			focus = hopehascome
+			focus = crazycrazycrazy
+		}
+		available = {	
+		}
+		x = 2
+		y = 3
+		cost = 1
+		completion_reward = {
+			add_popularity = { ideology = elites popularity = 0.9 }
+	        set_politics = { ruling_party = elites elections_allowed = no }	
+            add_political_power = 120
+			add_ideas = ulysses1			
+		    create_corps_commander = {
+    name = "Cato Hostilius"
+    portrait_path = "gfx/leaders/DIV/Cato_Hostilius.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+    name = "Ulysses"
+    portrait_path = "gfx/leaders/DIV/ulyssesgen1.dds"
+    skill = 4
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+		}
+	}
+	focus = {
+		id = ulyssesschosen
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = ulyssestakesover
+		}
+		mutually_exclusive = {
+		}
+		available = {	
+		}
+		x = 2
+		y = 4
+		cost = 1
+		completion_reward = {
+			add_manpower = 1000
+			custom_effect_tooltip = DIV_ULY_tt
+			hidden_effect = { load_oob = DIV_ULY }
+
+	}
+}
+	focus = {
+		id = newwarriorsofthedivide
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = ulyssesschosen
+		}
+		mutually_exclusive = {	
+		}
+		available = {	
+		}
+		x = 2
+		y = 5
+		cost = 1
+		completion_reward = {
+			add_manpower = 1500
+		}
+
+	}
+	focus = {
+		id = truetocaesar
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = newwarriorsofthedivide
+		}
+		mutually_exclusive = {
+			focus = onhisown
+		}
+		available = {	
+		}
+		x = 1
+		y = 6
+		cost = 1
+		completion_reward = {	
+			set_cosmetic_tag = DIV_LEG
+			CES = {add_to_faction = DIV }
+		    custom_effect_tooltip = DIV_LEG_tt
+		}
+}
+	focus = {
+		id = thelegionreinforcements 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = truetocaesar
+		}
+		mutually_exclusive = {	
+		}
+		available = {	
+		}
+		x = 1
+		y = 7
+		cost = 1
+		completion_reward = {
+			add_manpower = 2000
+			non_core_manpower = 0.2
+			conscription_factor = 0.1
+			create_corps_commander = {
+    name = "Beast"
+    portrait_path = "gfx/leaders/DIV/Beast.dds"
+    skill = 6
+    traits = {
+    }
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	}
+	create_corps_commander = {
+    name = "Bonesaw"
+    portrait_path = "gfx/leaders/DIV/Bonesaw.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+	}create_corps_commander = {
+    name = "Gaius Tullius"
+    portrait_path = "gfx/leaders/DIV/Gaius_Tullius.dds"
+    skill = 5
+    traits = {
+    }
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+             }
+		}
+	}
+		focus = {
+		id = needmoremachetes
+		icon = GFX_goal_legion_blacksmith
+		cost = 8.6
+		prerequisite = {
+			focus = thelegionreinforcements
+		}
+		x = 1
+		y = 8
+		completion_reward = {
+			add_ideas = legion_nf_legionary_blacksmiths
+		}
+
+	}
+	focus = {
+		id = child_soldiers
+		icon = GFX_goal_legion_generic_infantry
+		cost = 8.6
+		prerequisite = {
+			focus = needmoremachetes
+		}
+		x = 1
+		y = 9
+		completion_reward = {
+			add_ideas = legion_nf_child_soldiers
+		}
+	}
+	focus = {
+		id = clul 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = child_soldiers
+		}
+		mutually_exclusive = {	
+		}
+		available = {	
+		}
+		x = 1
+		y = 10
+		cost = 8.6
+		completion_reward = {
+			18 = { add_building_construction = { type = bunker province = 3264 level = 4 instant_build = yes } }
+			18 = { add_building_construction = { type = bunker province = 3260 level = 4 instant_build = yes } }
+		}
+	}
+	focus = {
+		id = themojaveplan 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = clul
+		}
+		mutually_exclusive = {	
+		}
+		available = {	
+		}
+		x = 1
+		y = 11
+		cost = 8.6
+		completion_reward = {
+			add_state_claim = 552
+			add_state_claim = 419
+			add_state_claim = 181
+			add_state_claim = 206
+			add_state_claim = 272
+		}  
+	} 
+
+	focus = {
+		id = onhisown
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = newwarriorsofthedivide
+		}
+		mutually_exclusive = {
+			focus = truetocaesar
+		   }
+		available = {
+		}
+		x = 3
+		y = 6
+		cost = 8.6
+		completion_reward = {	
+		  create_faction = "The New World Alliance"
+		  add_political_power = 120
+		  add_stability = 0.2
+		  add_war_support = 0.05
+		  }  
+	}
+	focus = {
+		id = oldworldtech
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = onhisown
+		}
+		mutually_exclusive = {	
+		}
+		available = {	
+		}
+		x = 3
+		y = 7
+		cost = 8.6
+		completion_reward = {	
+		add_ideas = oldworldtech
+		add_research_slot = 1
+		add_tech_bonus = {
+				name = medical_bonus
+				bonus = 0.5
+				uses = 1
+				category = chem_tech
+			}
+		}  
+	}
+	focus = {
+		id = thevangraffs
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = oldworldtech
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 3
+		y = 8
+		cost = 8.6
+		completion_reward = {
+		add_ideas = thevangraffs
+		create_corps_commander = {
+        name = "Jean-Baptiste Cutting"
+    portrait_path = "gfx/leaders/DIV/JeanBaptisteCutting.dds"
+    skill = 4
+    traits = {
+    }
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+		}}  
+	}
+	focus = {
+		id = Wolfwood 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thevangraffs
+		}
+		mutually_exclusive = {	
+		}
+		available = {
+		}
+		x = 3
+		y = 9
+		cost = 8.6
+		completion_reward = {	
+		  add_manpower = 2000
+		  create_corps_commander = {
+    name = "Seren Killoran"
+    portrait_path = "gfx/leaders/DIV/Seren_Killoran.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}create_corps_commander = {
+    name = "Lincoln Redwood"
+    portrait_path = "gfx/leaders/DIV/Lincoln_Redwood.dds"
+    skill = 5
+    traits = {
+    }
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+	        custom_effect_tooltip = DIV_ULYWW_tt
+			hidden_effect = { load_oob = DIV_ULYWW }	
+		}  
+	}
+	focus = {
+		id = TheNewWorldReborn 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = Wolfwood 
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 3
+		y = 10
+		cost = 8.6
+		completion_reward = {
+		    add_state_claim = 334
+			add_state_claim = 347
+			add_state_claim = 45
+			add_state_claim = 253
+			add_state_claim = 293
+			add_state_claim = 489
+		}  
+	}
+	focus = {
+		id = hopehascome
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thefutureofthedivide
+		}
+		mutually_exclusive = {
+			focus = ulyssestakesover 
+            focus = crazycrazycrazy			
+		}
+		available = {	
+		}
+		x = 8
+		y = 3
+		cost = 8.6
+		completion_reward = {
+           custom_effect_tooltip = mjrtroopers
+           hidden_effect = { load_oob = mjrtroopers }
+		   DIV = {
+			create_country_leader  = {
+    name = "The Courier"
+    desc = ""
+    picture = "The_Courier.dds"
+    expire = "3000.1.1"
+    ideology = ideocracy
+    
+    traits = {
+    }
+}
+            set_party_name = { 
+			ideology = intellectuals
+			long_name = "The MJR Congress"
+			name = "The MJR Congress" 
+			} 
+			add_ideas = thecourier1
+			set_cosmetic_tag = DIV_MOJ
+		    hope has come
+create_corps_commander = {
+    name = "Frist Lady Cass"
+    portrait_path = "gfx/leaders/DIV/FristLadyCass.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 5
+}
+create_field_marshal = {
+    name = "The Courier"
+    portrait_path = "gfx/leaders/DIV/The_Courier.dds"
+    skill = 5
+    traits = {
+    }
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+			set_politics = {
+				parties = {
+					people = { popularity = 35 }
+					elites = { popularity = 20 }
+					intellectuals = { popularity = 65 }
+					ruler = { popularity = 0 }
+				}
+				ruling_party = intellectuals
+				elections_allowed = no
+			}
+		}
+			add_political_power = 120
+		    add_stability = 0.2
+		    add_war_support = 0.05
+		}  
+	}
+	focus = {
+		id =  thepromiseofwealth
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = hopehascome
+		}
+		mutually_exclusive = {	
+		}
+		available = {	
+		}
+		x = 8
+		y = 4
+		cost = 8.6
+		completion_reward = {
+		add_ideas = thepromiseofwealth1
+		}  
+	}
+	focus = {
+		id = thearmyoftherepublic
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thepromiseofwealth
+		}
+		mutually_exclusive = {	
+		}
+		available = {	
+		}
+		x = 8
+		y = 5
+		cost = 8.6
+		completion_reward = {
+         	add_ideas = thearmyoftherepublic1
+		}  
+	}
+	focus = { 
+	        id = thefollowersoftheapocalypse
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thearmyoftherepublic
+		}
+		mutually_exclusive = {
+			focus = thecrimsoncaravan
+		}
+		available = {
+		}
+		x = 6
+		y = 6
+		cost = 8.6
+		completion_reward = {
+        	add_research_slot = 2
+	        add_ideas =	thefollowersoftheapocalypse1
+	        create_corps_commander = {
+    name = "Arcade Gannon"
+    portrait_path = "gfx/leaders/DIV/Arcade_Gannon.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}}}
+	focus = {	
+	    id = oldworldknowledge
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thefollowersoftheapocalypse
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 6
+		y = 7
+		cost = 8.6
+		completion_reward = {
+        	add_ideas = oldworldknowledge1	
+		}  
+	}
+	focus = {
+		id = oldworldpower 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = oldworldknowledge
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 6
+		y = 8
+		cost = 8.6
+		completion_reward = {
+		add_resource = {type = fuel amount= 20 state = 592}
+		add_resource = {type = electricity amount= 20 state = 13}
+		add_resource = {type = advanced_technology amount= 10 state = 617 }
+		}  
+	}
+	focus = {
+		id = theremnants 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = oldworldpower
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 6
+		y = 9
+		cost = 16
+		completion_reward = {
+		hidden_effect = {
+			set_technology = {
+				power_armour_enclave1 = 1
+				tesla_weaponry = 1
+				settled_civilization = 1
+				scientific_civilization = 1
+				improved_laser_weaponry  = 1
+			}
+			}
+		add_equipment_to_stockpile = { type = improved_laser_weaponry amount = 2000 producer = <DIV> }
+		add_equipment_to_stockpile = { type = power_armour_enclave1 amount = 1000 producer = <DIV> }
+		add_ideas = theremnants1
+		create_corps_commander = {
+    name = "David Mason"
+    portrait_path = "gfx/leaders/DIV/David_Mason.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+} 
+    create_field_marshal = {
+    name = "Judah Kreger"
+    portrait_path = "gfx/leaders/DIV/judahkreger.dds"
+    skill = 6
+    traits = {
+    }
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+		}  
+	        custom_effect_tooltip = mjrpowertroopers_tt
+			custom_effect_tooltip = theremnants1
+			hidden_effect = { load_oob = theremnants1 }
+			hidden_effect = { load_oob = mjrpowertroopers }
+	}
+	}
+	focus = {
+		id = thedemandofnewequipment  
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = theremnants
+		}
+		mutually_exclusive = {	
+		}
+		available = {
+		}
+		x = 6
+		y = 10
+		cost = 8.6
+		completion_reward = {
+		add_ideas = thedemandofnewequipment1
+	        592 = {
+			add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			} 
+			13 = {
+			add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}  
+	        }
+	focus = {
+		id = SafeHavenForTheRemnants 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thedemandofnewequipment
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 6
+		y = 11
+		cost = 8.6
+		completion_reward = {
+		    add_manpower = 1500
+		    custom_effect_tooltip = theremnantsv2
+			hidden_effect = { load_oob = theremnantsv2 }
+		    create_corps_commander = {
+    name = "David Mathis"
+    portrait_path = "gfx/leaders/DIV/David_Mathis.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+    name = "Clinton Franklin"
+    portrait_path = "gfx/leaders/DIV/Clinton_Franklin.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+    name = "H.K. Birch"
+    portrait_path = "gfx/leaders/DIV/H.K._Birch.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 2
+}
+		}  
+	}
+	focus = {
+		id =  takingdowntheriders 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thearmyoftherepublic
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 8
+		y = 7
+		cost = 8.6
+		completion_reward = {
+		    add_state_claim = 552
+			add_state_claim = 419
+			add_state_claim = 181
+			add_state_claim = 206
+			add_state_claim = 272
+			add_state_claim = 553
+			create_wargoal = {
+				type = annex_everything
+				target = MRA
+			}
+			            # create a wargoal and add cores on any nation who invades and annexes the original wargoal target
+			if = {
+				limit = {
+					any_state = {
+						AND = {
+							is_core_of = MRA
+							NOT = { is_controlled_by = MRA }
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						any_owned_state = {
+							is_core_of = MRA
+						}
+					}
+					add_named_threat = { threat = 5 name = stole_cores }
+					ROOT = {
+						create_wargoal = { type = annex_everything target = PREV }
+					}
+				}
+		}  
+	}
+ }
+	focus = {
+		id =  thedambusters 
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = takingdowntheriders
+		}
+		mutually_exclusive = {	
+		}
+		available = {	
+		}
+		x = 8
+		y = 8
+		cost = 8.6
+		completion_reward = {
+		    add_state_claim = 613
+			add_state_claim = 252
+			create_wargoal = {
+				type = annex_everything
+				target = DAM
+			}
+			            # create a wargoal and add cores on any nation who invades and annexes the original wargoal target
+			if = {
+				limit = {
+					any_state = {
+						AND = {
+							is_core_of = DAM
+							NOT = { is_controlled_by = DAM }
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						any_owned_state = {
+							is_core_of = DAM
+						}
+					}
+					add_named_threat = { threat = 5 name = stole_cores }
+					ROOT = {
+						create_wargoal = { type = annex_everything target = PREV }
+					}
+				}
+		    }
+	    }
+    }
+
+	focus = {
+		id =  theliberationofnewvegas
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thedambusters
+		}
+		mutually_exclusive = {	
+		}
+		available = {	
+		}
+		x = 8
+		y = 9
+		cost = 8.6
+		completion_reward = {
+            add_state_claim = 344
+			add_state_claim = 313
+			add_state_claim = 211
+			add_state_claim = 154
+			add_state_claim = 380
+			add_state_claim = 106
+			create_wargoal = {
+				type = annex_everything
+				target = VEG
+			}
+			            # create a wargoal and add cores on any nation who invades and annexes the original wargoal target
+			if = {
+				limit = {
+					any_state = {
+						AND = {
+							is_core_of = VEG
+							NOT = { is_controlled_by = VEG }
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						any_owned_state = {
+							is_core_of = VEG
+						}
+					}
+					add_named_threat = { threat = 5 name = stole_cores }
+					ROOT = {
+						create_wargoal = { type = annex_everything target = PREV }
+					}
+				}
+		    }
+	    }
+	}
+    
+	focus = {
+		id = thecrimsoncaravan
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thearmyoftherepublic
+		}
+		mutually_exclusive = {
+			focus = thefollowersoftheapocalypse
+		}
+		available = {
+		}
+		x = 10
+		y = 6
+		cost = 8.6
+		completion_reward = {
+        	add_research_slot = 1
+	        add_ideas =	thecrimsoncaravan1
+			create_corps_commander = {
+    name = "Colonel Craig Boone"
+    portrait_path = "gfx/leaders/DIV/Craig_Boone.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+			}
+		}
+    focus = {
+		id = crimsonindustrie
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thecrimsoncaravan
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 10
+		y = 7
+		cost = 8.6
+		completion_reward = {
+			 592 = {
+			add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			} 
+			13 = {
+			add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+}
+focus = {
+		id = thecrimsonroad
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = crimsonindustrie
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 10
+		y = 8
+		cost = 8.6
+		completion_reward = {
+			592 = {
+			  add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+					}
+				}
+				13 = {	
+				  add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+					}
+				}
+		}
+}
+focus = {
+		id = theadoptedsonsofthenewrepublic
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thecrimsonroad
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 10
+		y = 9
+		cost = 16
+		completion_reward = {
+			create_corps_commander = {
+    name = "Colonel Manny Vargas"
+    portrait_path = "gfx/leaders/DIV/Manny_Vargas.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+     create_corps_commander = {
+    name = "Colonel Astor"
+    portrait_path = "gfx/leaders/DIV/FirstSergeantAstor.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_field_marshal = {
+    name = "General Gene Tillman"
+    portrait_path = "gfx/leaders/DIV/GeneTillman.dds"
+    skill = 5
+    traits = {
+    }
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+     add_manpower = 3000
+	 add_ideas = thenewdraft
+	 
+}
+		}
+
+focus = {
+		id = themojaverangers
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = theadoptedsonsofthenewrepublic
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 10
+		y = 10
+		cost = 8.6
+		completion_reward = {
+			custom_effect_tooltip = themojvaerangers1
+			hidden_effect = { load_oob = themojvaerangers1 }
+		   create_corps_commander = {
+    name = "Ranger Sterling"
+    portrait_path = "gfx/leaders/DIV/Ranger_Sterling.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+    name = "Ranger Andy"
+    portrait_path = "gfx/leaders/DIV/Ranger_Andy.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+		}	
+}
+focus = {
+		id = crimsonequipmeant
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = themojaverangers
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 10
+		y = 11
+		cost = 16
+		completion_reward = {
+			add_ideas = movguns2
+		}
+}
+	
+	focus = {
+		id = thenewcapitol
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = theliberationofnewvegas
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 8
+		y = 10
+		cost = 8.6
+		completion_reward = {
+			set_capital = 211
+			every_owned_state = {
+				limit = {
+					is_new_vegas = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+					}
+				}
+			}
+		}
+}
+        focus = {
+		id = crazycrazycrazy
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thefutureofthedivide 
+			}
+		mutually_exclusive = {
+		    focus = ulyssestakesover
+			focus = hopehascome
+		}
+		available = {
+		}
+		x = 12
+		y = 3
+		cost = 8.6
+		completion_reward = {
+			create_faction = The FEV Legion
+			add_ideas = tabitha1
+			add_popularity = { ideology = ruler popularity = 0.9 }
+	        set_politics = { ruling_party = ruler elections_allowed = no }	
+            add_political_power = 120
+		    set_technology = {
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+    oral_instruction = 1
+	support_weaponry = 1
+	basic_ballistic_weaponry = 1
+	super_mutant_civilization = 1
+	mutant_access = 1
+	super_mutant_melee_weapons = 1
+	}
+	custom_effect_tooltip = tnt
+			hidden_effect = { load_oob = tnt }
+			create_corps_commander = {
+    name = "Rhonda"
+    portrait_path = "gfx/leaders/DIV/Rhonda.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+    name = "Tabitha"
+    portrait_path = "gfx/leaders/DIV/Tabitha.dds"
+    skill = 4
+    traits = {
+    }
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+}
+		}
+        focus = {
+		id = ashtonradio
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = crazycrazycrazy
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 12
+		y = 4
+		cost = 8.6
+		completion_reward = {
+			add_political_power = 120
+		}
+}
+        focus = {
+		id = mutantmigration
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = ashtonradio
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 12
+		y = 5
+		cost = 8.6
+		completion_reward = {
+			add_ideas = mutantmigration1
+			custom_effect_tooltip = nightkin3
+			hidden_effect = { load_oob = nightkin3 }
+			add_ideas = nightkin2
+			add_manpower = 3000
+			create_corps_commander = {
+    name = "Keene"
+    portrait_path = "gfx/leaders/DIV/keene.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+    name = "Harry"
+    portrait_path = "gfx/leaders/DIV/Harry.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+    name = "Mean Sonofabitch"
+    portrait_path = "gfx/leaders/DIV/MeanSonofabitch.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+    name = "Davison"
+    portrait_path = "gfx/leaders/DIV/Davison.dds"
+    skill = 3
+    traits = {
+    }
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+    name = "Frank"
+    portrait_path = "gfx/leaders/DIV/Frank.dds"
+    skill = 4
+    traits = {
+    }
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+} 
+		}
+
+        focus = {
+		id = towork
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = mutantmigration
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 12
+		y = 6
+		cost = 8.6
+		completion_reward = {
+			add_ideas = towork
+		}
+}
+		focus = {
+		id = thenewbatch
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = towork
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 12
+		y = 7
+		cost = 8.6
+		completion_reward = {
+		 add_manpower = 6000
+		}
+}
+		focus = {
+		id = giantsawake
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = thenewbatch
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 12
+		y = 8
+		cost = 8.6
+		completion_reward = {
+			custom_effect_tooltip = mojavemonsters2
+			hidden_effect = { load_oob = mojavemonsters2 }
+			add_ideas = mojavemonsters1
+			set_technology = {
+			super_mutant_behemoth = 1
+		}
+}}
+		focus = {
+		id = takebackwhatisours
+		icon = GFX_goal_continuous_increase_nu 
+		prerequisite = {
+			focus = giantsawake
+		}
+		mutually_exclusive = {
+		}
+		available = {
+		}
+		x = 12
+		y = 9
+		cost = 8.6
+		completion_reward = {
+		   add_state_claim = 562
+			add_state_claim = 46
+			add_state_claim = 573
+			add_state_claim = 417
+			add_state_claim = 137
+			create_wargoal = {
+				type = annex_everything
+				target = MOJ
+			}
+			            # create a wargoal and add cores on any nation who invades and annexes the original wargoal target
+			if = {
+				limit = {
+					any_state = {
+						AND = {
+							is_core_of = MOJ
+							NOT = { is_controlled_by = MOJ }
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						any_owned_state = {
+							is_core_of = MOJ
+						}
+					}
+					add_named_threat = { threat = 5 name = stole_cores }
+					ROOT = {
+						create_wargoal = { type = annex_everything target = PREV }
+					}
+				}
+		    }
+			add_state_claim = 552
+			add_state_claim = 419
+			add_state_claim = 181
+			add_state_claim = 206
+			add_state_claim = 272
+			add_state_claim = 553
+			create_wargoal = {
+				type = annex_everything
+				target = MRA
+			}
+			            # create a wargoal and add cores on any nation who invades and annexes the original wargoal target
+			if = {
+				limit = {
+					any_state = {
+						AND = {
+							is_core_of = MRA
+							NOT = { is_controlled_by = MRA }
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						any_owned_state = {
+							is_core_of = MRA
+						}
+					}
+					add_named_threat = { threat = 5 name = stole_cores }
+					ROOT = {
+						create_wargoal = { type = annex_everything target = PREV }
+					}
+				}
+		}
+			}
+		}
+		
+		} 
+}

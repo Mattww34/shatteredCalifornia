@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "BNS Heavy Trooper"
+
+	regiments = {
+		power_armour = { x = 0 y = 0 }
+		power_armour = { x = 0 y = 1 }
+		power_armour = { x = 0 y = 2 }
+		power_armour = { x = 1 y = 0 }
+		power_armour = { x = 1 y = 1 }
+		power_armour = { x = 1 y = 2 }
+	}
+	
+}
+division_template = {
+	name = "Infantry"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+	}
+	support = {
+	
+	}
+}
+units = {
+
+	division {
+		name = "BNS Heavy Infantry"
+		location = 2405
+		division_template = "BNS Heavy Trooper"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division {
+			name = "Division 1"
+			location = 2405
+			division_template = "Infantry"
+			start_experience_factor = 0.5
+			start_equipment_factor = 1.0
+		}
+	division {
+			name = "Division 2"
+			location = 2405
+			division_template = "Infantry"
+			start_experience_factor = 0.5
+			start_equipment_factor = 1.0
+	}
+	
+	
+
+}

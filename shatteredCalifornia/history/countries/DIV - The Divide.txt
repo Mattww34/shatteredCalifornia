@@ -1,0 +1,90 @@
+﻿capital = 592
+oob = "DIV_2523"
+	set_technology = {
+		# baseline techs
+		tribal_civilization = 1
+		settled_civilization = 1
+	        #industry
+		oral_instruction = 1
+		
+		#infantry
+		standard_weaponry_tech = 1
+		blunt_weaponry = 1
+		
+		#support
+		explosive_tech = 1
+		anti_personnel_tech = 1
+		support_weaponry = 1
+		
+		#vehicle
+		bike_tech_1 = 1
+		
+		#naval
+		destroyer_tech = 1
+		destroyer_tech_2 = 1
+		cruiser_tech = 1
+		naval_invasion_tech = 1
+	}
+	
+set_stability = 0.6
+set_war_support = 0.2
+
+set_politics = {
+    parties = {
+        people = { popularity = 25 }
+        elites = { popularity = 25 }
+        intellectuals = { popularity = 25 }
+        ruler = { popularity = 25 }
+    }
+    ruling_party = elites
+    elections_allowed = no
+}
+add_ideas = {settler_nation
+	settleredding 
+}
+set_research_slots = 3
+
+create_country_leader  = {
+    name = "Ulysses"
+    desc = ""
+    picture = "UlyssesDIV.dds"
+    expire = "3000.1.1"
+    ideology = militarist_oligarchy
+    
+    traits = 
+    }
+}
+create_country_leader  = {
+    name = " Elder Dennis Allen III"
+    desc = ""
+    picture = "Elder_Dennis_Allen.dds"
+    expire = "3000.1.1"
+    ideology = constitutional_republic
+    
+    traits = {
+    }
+}
+create_country_leader  = {
+    name = "The Courier"
+    desc = ""
+    picture = "The_Courier.dds"
+    expire = "3000.1.1"
+    ideology = ideocracy
+    
+    traits = {
+    }
+}
+create_country_leader  = {
+    name = "Tabitha"
+    desc = ""
+    picture = "Tabitha.dds"
+    expire = "3000.1.1"
+    ideology = oligarchy
+    
+    traits = {
+    }
+}
+
+
+
+}{

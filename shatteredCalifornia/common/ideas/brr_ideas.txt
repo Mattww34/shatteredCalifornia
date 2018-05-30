@@ -1,0 +1,475 @@
+ideas = {	
+	
+country = {
+	
+		renovation_vis_corps = {
+		
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+				industrial_capacity_factory = 0.025
+				production_factory_efficiency_gain_factor = 0.025
+			}
+		}
+		
+		republic_standardization_production = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			industrial_capacity_factory = 0.1
+		    }
+		}
+		
+		flyingbarons = {
+		
+			picture = generic_air_manufacturer_3 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				category_cas = {
+					build_cost_ic = -0.1
+				}
+			}
+		
+		}
+		
+		baronsaviation = {
+			
+			picture = generic_air_manufacturer_3
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+            equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.10
+                    instant = yes
+				}
+			}
+		}
+		
+		baronleague = {
+			
+			picture = generic_air_manufacturer_3
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+			stability_weekly = 0.001
+			}	
+		}
+
+		secret_societies = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				research_time_factor = -0.05
+				intellectuals_drift = 0.08
+				
+			}
+			}	
+		secret_connections = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+				modifier = {
+					consumer_goods_factor = -0.10
+					Ruler_drift = 0.08
+				
+				}
+		}
+			
+		secret_deal1 = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+				modifier = {
+					consumer_goods_factor = 0.1					
+				}
+		}
+		
+		deal1 = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+				modifier = {
+					consumer_goods_factor = 0.05			
+				}
+		}
+		
+		secret_deal = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+				modifier = {
+					consumer_goods_factor = -0.05				
+				}
+		}
+		
+		deal = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+				modifier = {
+					consumer_goods_factor = -0.05				
+				}
+		}
+	
+		constitution = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+				modifier = {
+					consumer_goods_factor = -0.05
+					stability_weekly = 0.001
+					war_support_weekly = 0.001
+					
+				}
+		}
+		
+		extended_contracts = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+				modifier = {
+				conscription = -0.05
+				production_speed_buildings_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1 
+				line_change_production_efficiency_factor = 0.1
+				local_resources_factor = 0.10
+					
+				}
+		}
+			
+		ruler = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+			consumer_goods_factor = -0.05
+			justify_war_goal_time = -0.10
+				
+			}
+		}
+	
+		rancheract = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+			training_time_army_factor = -0.15
+				
+			}
+		}
+		military_propaganda = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+			people_drift = 0.02
+				
+			}
+		}
+		military_propaganda2 = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+			people_drift = 0.04
+				
+			}
+		}
+		military_propaganda3 = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+			people_drift = 0.06
+				
+			}
+		}
+		brahmin_bill = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		
+		}
+		harmed_economy = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.03
+			}
+		
+		}
+		consensus_among_barons = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.025
+			}
+		
+		}
+		library_excavated = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			research_time_factor = -0.05 
+			}
+		
+		}
+		capitol_rebuild = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			army_morale_factor = 0.1
+			political_power_gain = 0.2
+			stability_weekly = 0.001
+			}
+		
+		}
+	
+		capitol_excavated = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.05
+			}
+		
+		}
+		Writing_constitution = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		
+		}
+		enacting_recruiting_campaign = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		
+		}
+		continue_business_usual = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		
+		}
+		gather_intellectuals = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		
+		}
+		1st_division = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			conscription = 0.005
+			}
+		
+		}
+		Sac_kings = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = -0.02
+			}
+		
+		}
+
+		invasion_preparation = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			conscription = 0.025
+			}
+		
+		}		
+	}
+}

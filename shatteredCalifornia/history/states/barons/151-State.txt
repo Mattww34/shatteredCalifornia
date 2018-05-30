@@ -1,0 +1,23 @@
+state = {
+	id = 151
+	name = "STATE_WOODLAKE" # Woodlake
+	manpower = 11000
+	state_category = rural
+	
+	history = {
+		owner = BRR
+		
+		add_core_of = BRR
+		victory_points = {
+			5066 5
+		}
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+	
+	provinces = {
+		8748 1777 5066 2447 2446 4941 8746 8745 8747
+	}
+}
